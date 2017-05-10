@@ -1,0 +1,1940 @@
+﻿Compilazione avviata 09/09/2015 13:55:24.
+     1>Progetto "C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\DCIMG_LabVIEW\DCIMG_LabVIEW.vcxproj" sul nodo 2 (destinazioni: Build).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\DCIMG_LabVIEW.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib\libtiff.lib C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib\zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\DCIMG_LabVIEW.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\DCIMG_LabVIEW.lib" /MACHINE:X86 /SAFESEH:NO /VERBOSE /DLL Release\DCIMG_LabVIEW.obj
+         Release\dllmain.obj
+         Release\stdafx.obj
+         ..\lib\libtiff.lib
+         ..\lib\zlib.lib
+         
+         Inizio passaggio 1
+         Elaborazione di /DEFAULTLIB:msvcprt
+         Elaborazione di /DEFAULTLIB:MSVCRT
+         Elaborazione di /DEFAULTLIB:OLDNAMES
+         
+         Ricerca librerie in corso...
+             Ricerca di C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib\libtiff.lib:
+               Trovato _TIFFSetField
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato libtiff.lib(tif_dir.obj)
+               Trovato _TIFFSetWarningHandler
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato libtiff.lib(tif_warning.obj)
+               Trovato _TIFFOpen
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato libtiff.lib(tif_unix.obj)
+         Elaborazione di /DEFAULTLIB:uuid.lib
+               Trovato _TIFFWriteEncodedStrip
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato libtiff.lib(tif_write.obj)
+               Trovato _TIFFClose
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato libtiff.lib(tif_close.obj)
+               Trovato _TIFFWriteDirectory
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato libtiff.lib(tif_dirwrite.obj)
+               Trovato _TIFFFindField
+                 Con riferimenti in libtiff.lib(tif_dir.obj)
+                 Con riferimenti in libtiff.lib(tif_dirwrite.obj)
+                 Caricato libtiff.lib(tif_dirinfo.obj)
+               Trovato _TIFFReadDirectory
+                 Con riferimenti in libtiff.lib(tif_dir.obj)
+                 Caricato libtiff.lib(tif_dirread.obj)
+               Trovato _TIFFErrorExt
+                 Con riferimenti in libtiff.lib(tif_dirinfo.obj)
+                 Con riferimenti in libtiff.lib(tif_dirread.obj)
+                 Con riferimenti in libtiff.lib(tif_dir.obj)
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Con riferimenti in libtiff.lib(tif_write.obj)
+                 Con riferimenti in libtiff.lib(tif_dirwrite.obj)
+                 Caricato libtiff.lib(tif_error.obj)
+               Trovato _TIFFSwabShort
+                 Con riferimenti in libtiff.lib(tif_dir.obj)
+                 Con riferimenti in libtiff.lib(tif_dirwrite.obj)
+                 Con riferimenti in libtiff.lib(tif_dirread.obj)
+                 Caricato libtiff.lib(tif_swab.obj)
+               Trovato __TIFFNoPostDecode
+                 Con riferimenti in libtiff.lib(tif_dir.obj)
+                 Caricato libtiff.lib(tif_read.obj)
+               Trovato _TIFFSetCompressionScheme
+                 Con riferimenti in libtiff.lib(tif_dir.obj)
+                 Caricato libtiff.lib(tif_compress.obj)
+               Trovato __TIFFCheckMalloc
+                 Con riferimenti in libtiff.lib(tif_dir.obj)
+                 Con riferimenti in libtiff.lib(tif_dirwrite.obj)
+                 Con riferimenti in libtiff.lib(tif_dirinfo.obj)
+                 Con riferimenti in libtiff.lib(tif_dirread.obj)
+                 Caricato libtiff.lib(tif_aux.obj)
+               Trovato _TIFFClientOpen
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Caricato libtiff.lib(tif_open.obj)
+               Trovato _TIFFFlushData
+                 Con riferimenti in libtiff.lib(tif_write.obj)
+                 Caricato libtiff.lib(tif_flush.obj)
+               Trovato _TIFFScanlineSize
+                 Con riferimenti in libtiff.lib(tif_write.obj)
+                 Con riferimenti in libtiff.lib(tif_dirread.obj)
+                 Caricato libtiff.lib(tif_strip.obj)
+               Trovato _TIFFTileSize
+                 Con riferimenti in libtiff.lib(tif_write.obj)
+                 Con riferimenti in libtiff.lib(tif_dirread.obj)
+                 Caricato libtiff.lib(tif_tile.obj)
+               Trovato _TIFFIsCODECConfigured
+                 Con riferimenti in libtiff.lib(tif_compress.obj)
+                 Caricato libtiff.lib(tif_codec.obj)
+               Trovato _TIFFInitDumpMode
+                 Con riferimenti in libtiff.lib(tif_codec.obj)
+                 Caricato libtiff.lib(tif_dumpmode.obj)
+               Trovato _TIFFInitPackBits
+                 Con riferimenti in libtiff.lib(tif_codec.obj)
+                 Caricato libtiff.lib(tif_packbits.obj)
+               Trovato _TIFFInitCCITTRLE
+                 Con riferimenti in libtiff.lib(tif_codec.obj)
+                 Caricato libtiff.lib(tif_fax3.obj)
+               Trovato _TIFFInitThunderScan
+                 Con riferimenti in libtiff.lib(tif_codec.obj)
+                 Caricato libtiff.lib(tif_thunder.obj)
+               Trovato _TIFFInitNeXT
+                 Con riferimenti in libtiff.lib(tif_codec.obj)
+                 Caricato libtiff.lib(tif_next.obj)
+               Trovato _TIFFInitLZW
+                 Con riferimenti in libtiff.lib(tif_codec.obj)
+                 Caricato libtiff.lib(tif_lzw.obj)
+               Trovato _TIFFInitOJPEG
+                 Con riferimenti in libtiff.lib(tif_codec.obj)
+                 Caricato libtiff.lib(tif_ojpeg.obj)
+               Trovato _TIFFInitJPEG
+                 Con riferimenti in libtiff.lib(tif_codec.obj)
+                 Caricato libtiff.lib(tif_jpeg.obj)
+               Trovato _TIFFInitZIP
+                 Con riferimenti in libtiff.lib(tif_codec.obj)
+                 Caricato libtiff.lib(tif_zip.obj)
+               Trovato _TIFFInitPixarLog
+                 Con riferimenti in libtiff.lib(tif_codec.obj)
+                 Caricato libtiff.lib(tif_pixarlog.obj)
+               Trovato _TIFFInitSGILog
+                 Con riferimenti in libtiff.lib(tif_codec.obj)
+                 Caricato libtiff.lib(tif_luv.obj)
+               Trovato _TIFFFaxMainTable
+                 Con riferimenti in libtiff.lib(tif_fax3.obj)
+                 Caricato libtiff.lib(tif_fax3sm.obj)
+               Trovato _TIFFPredictorInit
+                 Con riferimenti in libtiff.lib(tif_lzw.obj)
+                 Con riferimenti in libtiff.lib(tif_zip.obj)
+                 Con riferimenti in libtiff.lib(tif_pixarlog.obj)
+                 Caricato libtiff.lib(tif_predict.obj)
+               Trovato _jpeg_std_error
+                 Con riferimenti in libtiff.lib(tif_ojpeg.obj)
+                 Con riferimenti in libtiff.lib(tif_jpeg.obj)
+                 Caricato libtiff.lib(jerror.obj)
+         Elaborazione di /DEFAULTLIB:LIBCMT
+               Trovato _jpeg_CreateDecompress
+                 Con riferimenti in libtiff.lib(tif_ojpeg.obj)
+                 Con riferimenti in libtiff.lib(tif_jpeg.obj)
+                 Caricato libtiff.lib(jdapimin.obj)
+               Trovato _jpeg_start_decompress
+                 Con riferimenti in libtiff.lib(tif_ojpeg.obj)
+                 Con riferimenti in libtiff.lib(tif_jpeg.obj)
+                 Caricato libtiff.lib(jdapistd.obj)
+               Trovato _jpeg_destroy
+                 Con riferimenti in libtiff.lib(tif_ojpeg.obj)
+                 Con riferimenti in libtiff.lib(tif_jpeg.obj)
+                 Con riferimenti in libtiff.lib(jerror.obj)
+                 Caricato libtiff.lib(jcomapi.obj)
+               Trovato _jpeg_CreateCompress
+                 Con riferimenti in libtiff.lib(tif_jpeg.obj)
+                 Caricato libtiff.lib(jcapimin.obj)
+               Trovato _jpeg_set_defaults
+                 Con riferimenti in libtiff.lib(tif_jpeg.obj)
+                 Caricato libtiff.lib(jcparam.obj)
+               Trovato _jpeg_start_compress
+                 Con riferimenti in libtiff.lib(tif_jpeg.obj)
+                 Caricato libtiff.lib(jcapistd.obj)
+               Trovato _jpeg_resync_to_restart
+                 Con riferimenti in libtiff.lib(tif_jpeg.obj)
+                 Caricato libtiff.lib(jdmarker.obj)
+               Trovato _deflate
+                 Con riferimenti in libtiff.lib(tif_zip.obj)
+                 Con riferimenti in libtiff.lib(tif_pixarlog.obj)
+                 Caricato libtiff.lib(deflate.obj)
+               Trovato _inflate
+                 Con riferimenti in libtiff.lib(tif_zip.obj)
+                 Con riferimenti in libtiff.lib(tif_pixarlog.obj)
+                 Caricato libtiff.lib(inflate.obj)
+               Trovato _jinit_input_controller
+                 Con riferimenti in libtiff.lib(jdapimin.obj)
+                 Caricato libtiff.lib(jdinput.obj)
+               Trovato _jinit_memory_mgr
+                 Con riferimenti in libtiff.lib(jdapimin.obj)
+                 Caricato libtiff.lib(jmemmgr.obj)
+               Trovato _jinit_master_decompress
+                 Con riferimenti in libtiff.lib(jdapistd.obj)
+                 Caricato libtiff.lib(jdmaster.obj)
+               Trovato _jpeg_natural_order
+                 Con riferimenti in libtiff.lib(jcapimin.obj)
+                 Caricato libtiff.lib(jutils.obj)
+               Trovato _jinit_marker_writer
+                 Con riferimenti in libtiff.lib(jcapimin.obj)
+                 Caricato libtiff.lib(jcmarker.obj)
+               Trovato _jinit_compress_master
+                 Con riferimenti in libtiff.lib(jcapistd.obj)
+                 Caricato libtiff.lib(jcinit.obj)
+               Trovato _adler32
+                 Con riferimenti in libtiff.lib(deflate.obj)
+                 Con riferimenti in libtiff.lib(inflate.obj)
+                 Caricato libtiff.lib(adler32.obj)
+               Trovato _crc32
+                 Con riferimenti in libtiff.lib(deflate.obj)
+                 Con riferimenti in libtiff.lib(inflate.obj)
+                 Caricato libtiff.lib(crc32.obj)
+               Trovato _zcalloc
+                 Con riferimenti in libtiff.lib(deflate.obj)
+                 Con riferimenti in libtiff.lib(inflate.obj)
+                 Caricato libtiff.lib(zutil.obj)
+               Trovato __tr_init
+                 Con riferimenti in libtiff.lib(deflate.obj)
+                 Caricato libtiff.lib(trees.obj)
+               Trovato _match_init
+                 Con riferimenti in libtiff.lib(deflate.obj)
+                 Caricato libtiff.lib(match686.obj)
+               Trovato _inflate_table
+                 Con riferimenti in libtiff.lib(inflate.obj)
+                 Caricato libtiff.lib(inftrees.obj)
+               Trovato _inflate_fast
+                 Con riferimenti in libtiff.lib(inflate.obj)
+                 Caricato libtiff.lib(inffas32.obj)
+               Trovato _jpeg_open_backing_store
+                 Con riferimenti in libtiff.lib(jmemmgr.obj)
+                 Caricato libtiff.lib(jmemnobs.obj)
+               Trovato _jinit_huff_decoder
+                 Con riferimenti in libtiff.lib(jdmaster.obj)
+                 Caricato libtiff.lib(jdhuff.obj)
+               Trovato _jinit_1pass_quantizer
+                 Con riferimenti in libtiff.lib(jdmaster.obj)
+                 Caricato libtiff.lib(jquant1.obj)
+               Trovato _jinit_inverse_dct
+                 Con riferimenti in libtiff.lib(jdmaster.obj)
+                 Caricato libtiff.lib(jddctmgr.obj)
+               Trovato _jinit_upsampler
+                 Con riferimenti in libtiff.lib(jdmaster.obj)
+                 Caricato libtiff.lib(jdsample.obj)
+               Trovato _jinit_arith_decoder
+                 Con riferimenti in libtiff.lib(jdmaster.obj)
+                 Caricato libtiff.lib(jdarith.obj)
+               Trovato _jinit_color_deconverter
+                 Con riferimenti in libtiff.lib(jdmaster.obj)
+                 Caricato libtiff.lib(jdcolor.obj)
+               Trovato _jinit_d_coef_controller
+                 Con riferimenti in libtiff.lib(jdmaster.obj)
+                 Caricato libtiff.lib(jdcoefct.obj)
+               Trovato _jinit_2pass_quantizer
+                 Con riferimenti in libtiff.lib(jdmaster.obj)
+                 Caricato libtiff.lib(jquant2.obj)
+               Trovato _jinit_merged_upsampler
+                 Con riferimenti in libtiff.lib(jdmaster.obj)
+                 Caricato libtiff.lib(jdmerge.obj)
+               Trovato _jinit_d_main_controller
+                 Con riferimenti in libtiff.lib(jdmaster.obj)
+                 Caricato libtiff.lib(jdmainct.obj)
+               Trovato _jinit_d_post_controller
+                 Con riferimenti in libtiff.lib(jdmaster.obj)
+                 Caricato libtiff.lib(jdpostct.obj)
+               Trovato _jinit_color_converter
+                 Con riferimenti in libtiff.lib(jcinit.obj)
+                 Caricato libtiff.lib(jccolor.obj)
+               Trovato _jinit_arith_encoder
+                 Con riferimenti in libtiff.lib(jcinit.obj)
+                 Caricato libtiff.lib(jcarith.obj)
+               Trovato _jinit_c_main_controller
+                 Con riferimenti in libtiff.lib(jcinit.obj)
+                 Caricato libtiff.lib(jcmainct.obj)
+               Trovato _jinit_c_master_control
+                 Con riferimenti in libtiff.lib(jcinit.obj)
+                 Caricato libtiff.lib(jcmaster.obj)
+               Trovato _jinit_c_coef_controller
+                 Con riferimenti in libtiff.lib(jcinit.obj)
+                 Caricato libtiff.lib(jccoefct.obj)
+               Trovato _jinit_c_prep_controller
+                 Con riferimenti in libtiff.lib(jcinit.obj)
+                 Caricato libtiff.lib(jcprepct.obj)
+               Trovato _jinit_forward_dct
+                 Con riferimenti in libtiff.lib(jcinit.obj)
+                 Caricato libtiff.lib(jcdctmgr.obj)
+               Trovato _jinit_downsampler
+                 Con riferimenti in libtiff.lib(jcinit.obj)
+                 Caricato libtiff.lib(jcsample.obj)
+               Trovato _jinit_huff_encoder
+                 Con riferimenti in libtiff.lib(jcinit.obj)
+                 Caricato libtiff.lib(jchuff.obj)
+               Trovato _jpeg_idct_16x16
+                 Con riferimenti in libtiff.lib(jddctmgr.obj)
+                 Caricato libtiff.lib(jidctint.obj)
+               Trovato _jpeg_idct_float
+                 Con riferimenti in libtiff.lib(jddctmgr.obj)
+                 Caricato libtiff.lib(jidctflt.obj)
+               Trovato _jpeg_idct_ifast
+                 Con riferimenti in libtiff.lib(jddctmgr.obj)
+                 Caricato libtiff.lib(jidctfst.obj)
+               Trovato _jpeg_aritab
+                 Con riferimenti in libtiff.lib(jdarith.obj)
+                 Caricato libtiff.lib(jaricom.obj)
+               Trovato _jpeg_fdct_4x8
+                 Con riferimenti in libtiff.lib(jcdctmgr.obj)
+                 Caricato libtiff.lib(jfdctint.obj)
+               Trovato _jpeg_fdct_float
+                 Con riferimenti in libtiff.lib(jcdctmgr.obj)
+                 Caricato libtiff.lib(jfdctflt.obj)
+               Trovato _jpeg_fdct_ifast
+                 Con riferimenti in libtiff.lib(jcdctmgr.obj)
+                 Caricato libtiff.lib(jfdctfst.obj)
+             Ricerca di C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib\zlib.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+               Trovato __imp__Sleep@4
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato kernel32.lib(KERNEL32.dll)
+               Trovato __imp__LoadLibraryW@4
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato kernel32.lib(KERNEL32.dll)
+               Trovato __imp__GetProcAddress@8
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato kernel32.lib(KERNEL32.dll)
+               Trovato __imp__FreeLibrary@4
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato kernel32.lib(KERNEL32.dll)
+               Trovato __imp__WideCharToMultiByte@32
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Caricato kernel32.lib(KERNEL32.dll)
+               Trovato __IMPORT_DESCRIPTOR_KERNEL32
+                 Con riferimenti in kernel32.lib(KERNEL32.dll)
+                 Con riferimenti in kernel32.lib(KERNEL32.dll)
+                 Con riferimenti in kernel32.lib(KERNEL32.dll)
+                 Con riferimenti in kernel32.lib(KERNEL32.dll)
+                 Con riferimenti in kernel32.lib(KERNEL32.dll)
+                 Caricato kernel32.lib(KERNEL32.dll)
+               Trovato __NULL_IMPORT_DESCRIPTOR
+                 Con riferimenti in kernel32.lib(KERNEL32.dll)
+                 Caricato kernel32.lib(KERNEL32.dll)
+               Trovato KERNEL32_NULL_THUNK_DATA
+                 Con riferimenti in kernel32.lib(KERNEL32.dll)
+                 Caricato kernel32.lib(KERNEL32.dll)
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+             Ricerca di ..\lib\libtiff.lib:
+             Ricerca di ..\lib\zlib.lib:
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\msvcprt.lib:
+               Trovato "__declspec(dllimport) void __cdecl std::_Xbad_alloc(void)" (__imp_?_Xbad_alloc@std@@YAXXZ)
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato msvcprt.lib(MSVCP120.dll)
+               Trovato "__declspec(dllimport) void __cdecl std::_Xlength_error(char const *)" (__imp_?_Xlength_error@std@@YAXPBD@Z)
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato msvcprt.lib(MSVCP120.dll)
+               Trovato "__declspec(dllimport) void __cdecl std::_Xout_of_range(char const *)" (__imp_?_Xout_of_range@std@@YAXPBD@Z)
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato msvcprt.lib(MSVCP120.dll)
+               Trovato "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato msvcprt.lib(newaop_s.obj)
+               Trovato "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+                 Con riferimenti in dllmain.obj
+                 Caricato msvcprt.lib(MSVCP120.dll)
+               Trovato "__declspec(dllimport) char const * __cdecl std::_Syserror_map(int)" (__imp_?_Syserror_map@std@@YAPBDH@Z)
+                 Con riferimenti in dllmain.obj
+                 Caricato msvcprt.lib(MSVCP120.dll)
+               Trovato "__declspec(dllimport) public: __thiscall std::locale::id::id(unsigned int)" (__imp_??0id@locale@std@@QAE@I@Z)
+                 Con riferimenti in dllmain.obj
+                 Caricato msvcprt.lib(MSVCP120.dll)
+               Trovato __IMPORT_DESCRIPTOR_MSVCP120
+                 Con riferimenti in msvcprt.lib(MSVCP120.dll)
+                 Con riferimenti in msvcprt.lib(MSVCP120.dll)
+                 Con riferimenti in msvcprt.lib(MSVCP120.dll)
+                 Con riferimenti in msvcprt.lib(MSVCP120.dll)
+                 Con riferimenti in msvcprt.lib(MSVCP120.dll)
+                 Con riferimenti in msvcprt.lib(MSVCP120.dll)
+                 Caricato msvcprt.lib(MSVCP120.dll)
+               Trovato MSVCP120_NULL_THUNK_DATA
+                 Con riferimenti in msvcprt.lib(MSVCP120.dll)
+                 Caricato msvcprt.lib(MSVCP120.dll)
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\MSVCRT.lib:
+               Trovato @__security_check_cookie@4
+                 Con riferimenti in libtiff.lib(tif_codec.obj)
+                 Con riferimenti in libtiff.lib(tif_ojpeg.obj)
+                 Con riferimenti in libtiff.lib(tif_jpeg.obj)
+                 Con riferimenti in libtiff.lib(tif_luv.obj)
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Con riferimenti in libtiff.lib(tif_dirwrite.obj)
+                 Con riferimenti in libtiff.lib(tif_dirread.obj)
+                 Caricato MSVCRT.lib(secchk.obj)
+               Trovato "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Con riferimenti in msvcprt.lib(newaop_s.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp__memmove
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Con riferimenti in libtiff.lib(tif_read.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp__sprintf_s
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato _atexit
+                 Con riferimenti in dllmain.obj
+                 Caricato MSVCRT.lib(atonexit.obj)
+               Trovato __purecall
+                 Con riferimenti in dllmain.obj
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp___hypot
+                 Con riferimenti in dllmain.obj
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato "const type_info::`vftable'" (??_7type_info@@6B@)
+                 Con riferimenti in dllmain.obj
+                 Caricato MSVCRT.lib(ti_inst.obj)
+               Trovato __DllMainCRTStartup@12
+                 Caricato MSVCRT.lib(crtdll.obj)
+               Trovato __imp___wassert
+                 Con riferimenti in libtiff.lib(tif_pixarlog.obj)
+                 Con riferimenti in libtiff.lib(tif_luv.obj)
+                 Con riferimenti in libtiff.lib(tif_predict.obj)
+                 Con riferimenti in libtiff.lib(tif_lzw.obj)
+                 Con riferimenti in libtiff.lib(tif_ojpeg.obj)
+                 Con riferimenti in libtiff.lib(tif_jpeg.obj)
+                 Con riferimenti in libtiff.lib(tif_zip.obj)
+                 Con riferimenti in libtiff.lib(tif_read.obj)
+                 Con riferimenti in libtiff.lib(tif_open.obj)
+                 Con riferimenti in libtiff.lib(tif_dumpmode.obj)
+                 Con riferimenti in libtiff.lib(tif_fax3.obj)
+                 Con riferimenti in libtiff.lib(tif_dir.obj)
+                 Con riferimenti in libtiff.lib(tif_write.obj)
+                 Con riferimenti in libtiff.lib(tif_dirwrite.obj)
+                 Con riferimenti in libtiff.lib(tif_dirread.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __fltused
+                 Con riferimenti in libtiff.lib(tif_fax3.obj)
+                 Con riferimenti in libtiff.lib(tif_jpeg.obj)
+                 Con riferimenti in libtiff.lib(tif_pixarlog.obj)
+                 Con riferimenti in libtiff.lib(tif_luv.obj)
+                 Con riferimenti in libtiff.lib(tif_dir.obj)
+                 Con riferimenti in libtiff.lib(tif_dirwrite.obj)
+                 Con riferimenti in libtiff.lib(tif_dirread.obj)
+                 Con riferimenti in libtiff.lib(tif_aux.obj)
+                 Caricato MSVCRT.lib(dllsupp.obj)
+               Trovato __imp___errno
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp__free
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Con riferimenti in libtiff.lib(zutil.obj)
+                 Con riferimenti in MSVCRT.lib(crtdll.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp__malloc
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Con riferimenti in libtiff.lib(zutil.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp__realloc
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp___fstat64i32
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp___wopen
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp__strerror
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp____iob_func
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp__fprintf
+                 Con riferimenti in libtiff.lib(tif_jpeg.obj)
+                 Con riferimenti in libtiff.lib(tif_predict.obj)
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Con riferimenti in libtiff.lib(tif_dirinfo.obj)
+                 Con riferimenti in libtiff.lib(tif_fax3.obj)
+                 Con riferimenti in libtiff.lib(tif_ojpeg.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp__vfprintf
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato _memcpy
+                 Con riferimenti in libtiff.lib(inflate.obj)
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Con riferimenti in libtiff.lib(tif_dirwrite.obj)
+                 Con riferimenti in libtiff.lib(tif_predict.obj)
+                 Con riferimenti in libtiff.lib(deflate.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato _memset
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Con riferimenti in libtiff.lib(tif_fax3.obj)
+                 Con riferimenti in libtiff.lib(deflate.obj)
+                 Con riferimenti in libtiff.lib(jquant2.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato ___security_cookie
+                 Con riferimenti in libtiff.lib(tif_ojpeg.obj)
+                 Con riferimenti in libtiff.lib(tif_jpeg.obj)
+                 Con riferimenti in libtiff.lib(tif_luv.obj)
+                 Con riferimenti in MSVCRT.lib(secchk.obj)
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Con riferimenti in libtiff.lib(tif_dirwrite.obj)
+                 Con riferimenti in libtiff.lib(tif_dirread.obj)
+                 Con riferimenti in libtiff.lib(tif_codec.obj)
+                 Caricato MSVCRT.lib(gs_cookie.obj)
+               Trovato __imp__strncmp
+                 Con riferimenti in libtiff.lib(tif_close.obj)
+                 Con riferimenti in libtiff.lib(tif_dirinfo.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __dtoui3
+                 Con riferimenti in libtiff.lib(tif_dirwrite.obj)
+                 Caricato MSVCRT.lib(ftol3.obj)
+               Trovato __imp__bsearch
+                 Con riferimenti in libtiff.lib(tif_dirinfo.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp__qsort
+                 Con riferimenti in libtiff.lib(tif_dirinfo.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp__sprintf
+                 Con riferimenti in libtiff.lib(tif_dirinfo.obj)
+                 Con riferimenti in libtiff.lib(tif_codec.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __allmul
+                 Con riferimenti in libtiff.lib(tif_dirread.obj)
+                 Con riferimenti in libtiff.lib(tif_aux.obj)
+                 Caricato MSVCRT.lib(llmul.obj)
+               Trovato __aulldiv
+                 Con riferimenti in libtiff.lib(tif_dirread.obj)
+                 Con riferimenti in libtiff.lib(tif_aux.obj)
+                 Con riferimenti in libtiff.lib(tif_strip.obj)
+                 Caricato MSVCRT.lib(ulldiv.obj)
+               Trovato __libm_sse2_pow_precise
+                 Con riferimenti in libtiff.lib(tif_aux.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato _floor
+                 Con riferimenti in libtiff.lib(tif_aux.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp__longjmp
+                 Con riferimenti in libtiff.lib(tif_ojpeg.obj)
+                 Con riferimenti in libtiff.lib(tif_jpeg.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __setjmp3
+                 Con riferimenti in libtiff.lib(tif_ojpeg.obj)
+                 Con riferimenti in libtiff.lib(tif_jpeg.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __libm_sse2_exp_precise
+                 Con riferimenti in libtiff.lib(tif_pixarlog.obj)
+                 Con riferimenti in libtiff.lib(tif_luv.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __libm_sse2_log_precise
+                 Con riferimenti in libtiff.lib(tif_pixarlog.obj)
+                 Con riferimenti in libtiff.lib(tif_luv.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp__rand
+                 Con riferimenti in libtiff.lib(tif_luv.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __CIatan2
+                 Con riferimenti in libtiff.lib(tif_luv.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __libm_sse2_sqrt_precise
+                 Con riferimenti in libtiff.lib(tif_luv.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato _exit
+                 Con riferimenti in libtiff.lib(jerror.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato ___report_rangecheckfailure
+                 Con riferimenti in libtiff.lib(jdmarker.obj)
+                 Caricato MSVCRT.lib(gs_report.obj)
+               Trovato _sscanf
+                 Con riferimenti in libtiff.lib(jmemmgr.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato _getenv
+                 Con riferimenti in libtiff.lib(jmemmgr.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __alldiv
+                 Con riferimenti in libtiff.lib(adler32.obj)
+                 Caricato MSVCRT.lib(lldiv.obj)
+               Trovato __IMPORT_DESCRIPTOR_MSVCR120
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __lock
+                 Con riferimenti in MSVCRT.lib(atonexit.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __unlock
+                 Con riferimenti in MSVCRT.lib(atonexit.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp___calloc_crt
+                 Con riferimenti in MSVCRT.lib(atonexit.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato ___dllonexit
+                 Con riferimenti in MSVCRT.lib(atonexit.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __SEH_epilog4
+                 Con riferimenti in MSVCRT.lib(atonexit.obj)
+                 Con riferimenti in MSVCRT.lib(crtdll.obj)
+                 Caricato MSVCRT.lib(sehprolg4.obj)
+               Trovato __except_handler4
+                 Con riferimenti in MSVCRT.lib(atonexit.obj)
+                 Con riferimenti in MSVCRT.lib(crtdll.obj)
+                 Con riferimenti in MSVCRT.lib(sehprolg4.obj)
+                 Caricato MSVCRT.lib(chandler4gs.obj)
+               Trovato __imp___onexit
+                 Con riferimenti in MSVCRT.lib(atonexit.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato "void __stdcall `eh vector destructor iterator'(void *,unsigned int,int,void (__thiscall*)(void *))" (??_M@YGXPAXIHP6EX0@Z@Z)
+                 Con riferimenti in MSVCRT.lib(ti_inst.obj)
+                 Caricato MSVCRT.lib(ehvecdtr.obj)
+               Trovato "public: virtual __thiscall type_info::~type_info(void)" (??1type_info@@UAE@XZ)
+                 Con riferimenti in MSVCRT.lib(ti_inst.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato ___CppXcptFilter
+                 Con riferimenti in MSVCRT.lib(crtdll.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __amsg_exit
+                 Con riferimenti in MSVCRT.lib(crtdll.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __IsNonwritableInCurrentImage
+                 Con riferimenti in MSVCRT.lib(crtdll.obj)
+                 Caricato MSVCRT.lib(pesect.obj)
+               Trovato ___security_init_cookie
+                 Con riferimenti in MSVCRT.lib(crtdll.obj)
+                 Caricato MSVCRT.lib(gs_support.obj)
+               Trovato __imp___malloc_crt
+                 Con riferimenti in MSVCRT.lib(crtdll.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __RTC_Initialize
+                 Con riferimenti in MSVCRT.lib(crtdll.obj)
+                 Caricato MSVCRT.lib(initsect.obj)
+               Trovato __initterm
+                 Con riferimenti in MSVCRT.lib(crtdll.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __initterm_e
+                 Con riferimenti in MSVCRT.lib(crtdll.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato ___clean_type_info_names
+                 Con riferimenti in MSVCRT.lib(crtdll.obj)
+                 Caricato MSVCRT.lib(tncleanup.obj)
+               Trovato ___native_startup_state
+                 Con riferimenti in MSVCRT.lib(crtdll.obj)
+                 Caricato MSVCRT.lib(natstart.obj)
+               Trovato ___xi_a
+                 Con riferimenti in MSVCRT.lib(crtdll.obj)
+                 Caricato MSVCRT.lib(cinitexe.obj)
+         Elaborazione di /DEFAULTLIB:kernel32.lib
+          Elaborazione di /DISALLOWLIB:libcmtd.lib
+          Elaborazione di /DISALLOWLIB:msvcrtd.lib
+               Trovato __except1
+                 Con riferimenti in MSVCRT.lib(ftol3.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __crt_debugger_hook
+                 Con riferimenti in MSVCRT.lib(gs_report.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato ___crtUnhandledException
+                 Con riferimenti in MSVCRT.lib(gs_report.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato ___crtTerminateProcess
+                 Con riferimenti in MSVCRT.lib(gs_report.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato MSVCR120_NULL_THUNK_DATA
+                 Con riferimenti in MSVCRT.lib(MSVCR120.dll)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __except_handler4_common
+                 Con riferimenti in MSVCRT.lib(chandler4gs.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato "void __cdecl terminate(void)" (?terminate@@YAXXZ)
+                 Con riferimenti in MSVCRT.lib(ehvecdtr.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato ___clean_type_info_names_internal
+                 Con riferimenti in MSVCRT.lib(tncleanup.obj)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\OLDNAMES.lib:
+               Trovato __imp__close
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Caricato OLDNAMES.lib(close.obi)
+               Trovato __imp__lseek
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Caricato OLDNAMES.lib(lseek.obi)
+               Trovato __imp__open
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Caricato OLDNAMES.lib(open.obi)
+               Trovato __imp__read
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Caricato OLDNAMES.lib(read.obi)
+               Trovato __imp__write
+                 Con riferimenti in libtiff.lib(tif_unix.obj)
+                 Caricato OLDNAMES.lib(write.obi)
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\LIBCMT.lib:
+             Ricerca di C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib\libtiff.lib:
+             Ricerca di C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib\zlib.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+               Trovato __imp__EncodePointer@4
+                 Con riferimenti in MSVCRT.lib(atonexit.obj)
+                 Con riferimenti in MSVCRT.lib(crtdll.obj)
+                 Caricato kernel32.lib(KERNEL32.dll)
+               Trovato __imp__DecodePointer@4
+                 Con riferimenti in MSVCRT.lib(atonexit.obj)
+                 Con riferimenti in MSVCRT.lib(crtdll.obj)
+                 Caricato kernel32.lib(KERNEL32.dll)
+               Trovato __imp__IsDebuggerPresent@0
+                 Con riferimenti in MSVCRT.lib(gs_report.obj)
+                 Caricato kernel32.lib(KERNEL32.dll)
+               Trovato _IsProcessorFeaturePresent@4
+                 Con riferimenti in MSVCRT.lib(gs_report.obj)
+                 Caricato kernel32.lib(KERNEL32.dll)
+               Trovato __imp__QueryPerformanceCounter@4
+                 Con riferimenti in MSVCRT.lib(gs_support.obj)
+                 Caricato kernel32.lib(KERNEL32.dll)
+               Trovato __imp__GetCurrentProcessId@0
+                 Con riferimenti in MSVCRT.lib(gs_support.obj)
+                 Caricato kernel32.lib(KERNEL32.dll)
+               Trovato __imp__GetCurrentThreadId@0
+                 Con riferimenti in MSVCRT.lib(gs_support.obj)
+                 Caricato kernel32.lib(KERNEL32.dll)
+               Trovato __imp__GetSystemTimeAsFileTime@4
+                 Con riferimenti in MSVCRT.lib(gs_support.obj)
+                 Caricato kernel32.lib(KERNEL32.dll)
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+             Ricerca di ..\lib\libtiff.lib:
+             Ricerca di ..\lib\zlib.lib:
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\msvcprt.lib:
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\MSVCRT.lib:
+               Trovato __imp___close
+                 Con riferimenti in OLDNAMES.lib(close.obi)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp___lseek
+                 Con riferimenti in OLDNAMES.lib(lseek.obi)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp___open
+                 Con riferimenti in OLDNAMES.lib(open.obi)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp___read
+                 Con riferimenti in OLDNAMES.lib(read.obi)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato __imp___write
+                 Con riferimenti in OLDNAMES.lib(write.obi)
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\OLDNAMES.lib:
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\LIBCMT.lib:
+             Ricerca di C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib\libtiff.lib:
+             Ricerca di C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib\zlib.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+             Ricerca di ..\lib\libtiff.lib:
+             Ricerca di ..\lib\zlib.lib:
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\msvcprt.lib:
+         
+         Ricerca librerie terminata
+         
+         Generazione file EXP in corso...
+            Creazione della libreria C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\DCIMG_LabVIEW.lib e dell'oggetto C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\DCIMG_LabVIEW.exp in corso...
+         
+         Generazione file EXP terminata
+         
+         Ricerca librerie in corso...
+             Ricerca di C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib\libtiff.lib:
+             Ricerca di C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib\zlib.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+             Ricerca di ..\lib\libtiff.lib:
+             Ricerca di ..\lib\zlib.lib:
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\msvcprt.lib:
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\MSVCRT.lib:
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\OLDNAMES.lib:
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\LIBCMT.lib:
+         
+         Ricerca librerie terminata
+     1>LINK : warning LNK4098: la libreria predefinita 'LIBCMT' è in conflitto con l'utilizzo di altre librerie; utilizzare /NODEFAULTLIB:libreria
+         
+         Fine passaggio 1
+         
+             Annullato '.rdata' da (null)
+             Annullato __xmm@41f00000000000000000000000000000 da libtiff.lib(tif_dirread.obj)
+             Annullato __real@3ff0000000000000 da libtiff.lib(tif_aux.obj)
+             Annullato __real@3fe0000000000000 da libtiff.lib(tif_pixarlog.obj)
+             Annullato __real@3ff0000000000000 da libtiff.lib(tif_pixarlog.obj)
+             Annullato __real@40efffe000000000 da libtiff.lib(tif_pixarlog.obj)
+             Annullato __real@0000000000000000 da libtiff.lib(tif_luv.obj)
+             Annullato __real@3fe0000000000000 da libtiff.lib(tif_luv.obj)
+             Annullato __real@3ff0000000000000 da libtiff.lib(tif_luv.obj)
+             Annullato __xmm@41f00000000000000000000000000000 da libtiff.lib(tif_luv.obj)
+             Annullato "`string'" (??_C@_05IAIEPMAK@1?42?48?$AA@) da libtiff.lib(zutil.obj)
+             Annullato "public: static bool const std::integral_constant<bool,0>::value" (?value@?$integral_constant@_N$0A@@std@@2_NB) da msvcprt.lib(newaop_s.obj)
+             Annullato "public: static bool const std::integral_constant<bool,1>::value" (?value@?$integral_constant@_N$00@std@@2_NB) da msvcprt.lib(newaop_s.obj)
+             Annullato "public: static bool const std::integral_constant<bool,0>::value" (?value@?$integral_constant@_N$0A@@std@@2_NB) da MSVCRT.lib(ti_inst.obj)
+             Annullato "public: static bool const std::integral_constant<bool,1>::value" (?value@?$integral_constant@_N$00@std@@2_NB) da MSVCRT.lib(ti_inst.obj)
+             Annullato "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessDetach" (?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB) da MSVCRT.lib(initsect.obj)
+             Annullato "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessAttach" (?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB) da MSVCRT.lib(initsect.obj)
+             Annullato "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ThreadAttach" (?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB) da MSVCRT.lib(initsect.obj)
+             Annullato "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ThreadDetach" (?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB) da MSVCRT.lib(initsect.obj)
+             Annullato "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessVerifier" (?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB) da MSVCRT.lib(initsect.obj)
+             Annullato "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessDetach" (?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB) da MSVCRT.lib(tncleanup.obj)
+             Annullato "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessAttach" (?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB) da MSVCRT.lib(tncleanup.obj)
+             Annullato "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ThreadAttach" (?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB) da MSVCRT.lib(tncleanup.obj)
+             Annullato "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ThreadDetach" (?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB) da MSVCRT.lib(tncleanup.obj)
+             Annullato "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessVerifier" (?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB) da MSVCRT.lib(tncleanup.obj)
+             Annullato "public: static bool const std::integral_constant<bool,0>::value" (?value@?$integral_constant@_N$0A@@std@@2_NB) da MSVCRT.lib(tncleanup.obj)
+             Annullato "public: static bool const std::integral_constant<bool,1>::value" (?value@?$integral_constant@_N$00@std@@2_NB) da MSVCRT.lib(tncleanup.obj)
+             Annullato '.idata$4' da kernel32.lib(KERNEL32.dll)
+             Annullato '.idata$4' da MSVCRT.lib(MSVCR120.dll)
+             Annullato __imp__Sleep@4 da kernel32.lib(KERNEL32.dll)
+             Annullato __imp___hypot da MSVCRT.lib(MSVCR120.dll)
+             Annullato '.idata$6' da kernel32.lib(KERNEL32.dll)
+             Annullato '.idata$6' da MSVCRT.lib(MSVCR120.dll)
+             Annullato _deflateBound da libtiff.lib(deflate.obj)
+             Annullato _deflateCopy da libtiff.lib(deflate.obj)
+             Annullato _deflatePending da libtiff.lib(deflate.obj)
+             Annullato _deflatePrime da libtiff.lib(deflate.obj)
+             Annullato _deflateSetDictionary da libtiff.lib(deflate.obj)
+             Annullato _deflateSetHeader da libtiff.lib(deflate.obj)
+             Annullato _deflateTune da libtiff.lib(deflate.obj)
+             Annullato _inflateCopy da libtiff.lib(inflate.obj)
+             Annullato _inflateGetDictionary da libtiff.lib(inflate.obj)
+             Annullato _inflateGetHeader da libtiff.lib(inflate.obj)
+             Annullato _inflateMark da libtiff.lib(inflate.obj)
+             Annullato _inflatePrime da libtiff.lib(inflate.obj)
+             Annullato _inflateSetDictionary da libtiff.lib(inflate.obj)
+             Annullato _inflateSyncPoint da libtiff.lib(inflate.obj)
+             Annullato _inflateUndermine da libtiff.lib(inflate.obj)
+             Annullato _adler32_combine da libtiff.lib(adler32.obj)
+             Annullato _adler32_combine64 da libtiff.lib(adler32.obj)
+             Annullato _adler32_combine_ da libtiff.lib(adler32.obj)
+             Annullato _crc32_big da libtiff.lib(crc32.obj)
+             Annullato _crc32_combine da libtiff.lib(crc32.obj)
+             Annullato _crc32_combine64 da libtiff.lib(crc32.obj)
+             Annullato _crc32_combine_ da libtiff.lib(crc32.obj)
+             Annullato _get_crc_table da libtiff.lib(crc32.obj)
+             Annullato _gf2_matrix_square da libtiff.lib(crc32.obj)
+             Annullato _gf2_matrix_times da libtiff.lib(crc32.obj)
+             Annullato _zError da libtiff.lib(zutil.obj)
+             Annullato _zlibCompileFlags da libtiff.lib(zutil.obj)
+             Annullato _zlibVersion da libtiff.lib(zutil.obj)
+             Annullato __tr_tally da libtiff.lib(trees.obj)
+             Annullato _tr_static_init da libtiff.lib(trees.obj)
+             Annullato _Sleep@4 da kernel32.lib(KERNEL32.dll)
+             Annullato __hypot da MSVCRT.lib(MSVCR120.dll)
+             Annullato "private: __thiscall type_info::type_info(class type_info const &)" (??0type_info@@AAE@ABV0@@Z) da MSVCRT.lib(ti_inst.obj)
+             Annullato "private: class type_info & __thiscall type_info::operator=(class type_info const &)" (??4type_info@@AAEAAV0@ABV0@@Z) da MSVCRT.lib(ti_inst.obj)
+             Annullato _NtCurrentTeb da MSVCRT.lib(crtdll.obj)
+             Annullato ___report_securityfailureEx da MSVCRT.lib(gs_report.obj)
+             Annullato "int __cdecl ArrayUnwindFilter(struct _EXCEPTION_POINTERS *)" (?ArrayUnwindFilter@@YAHPAU_EXCEPTION_POINTERS@@@Z) da MSVCRT.lib(ehvecdtr.obj)
+         Generazione codice in corso...
+         Generazione codice terminata
+         
+         Ricerca librerie in corso...
+             Ricerca di C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib\libtiff.lib:
+             Ricerca di C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib\zlib.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+             Ricerca di ..\lib\libtiff.lib:
+             Ricerca di ..\lib\zlib.lib:
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\msvcprt.lib:
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\MSVCRT.lib:
+               Trovato __CxxThrowException@8
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato ___CxxFrameHandler3
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato _ceil
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato MSVCRT.lib(MSVCR120.dll)
+               Trovato ___isa_available
+                 Con riferimenti in DCIMG_LabVIEW.obj
+                 Caricato MSVCRT.lib(cpu_disp.obj)
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\OLDNAMES.lib:
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\LIBCMT.lib:
+             Ricerca di C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib\libtiff.lib:
+             Ricerca di C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib\zlib.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+             Ricerca di ..\lib\libtiff.lib:
+             Ricerca di ..\lib\zlib.lib:
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\msvcprt.lib:
+         
+         Ricerca librerie terminata
+         
+         Ricerca librerie in corso...
+             Ricerca di C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib\libtiff.lib:
+             Ricerca di C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib\zlib.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+             Ricerca di ..\lib\libtiff.lib:
+             Ricerca di ..\lib\zlib.lib:
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\msvcprt.lib:
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\MSVCRT.lib:
+               Trovato __load_config_used
+                 Caricato MSVCRT.lib(loadcfg.obj)
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\OLDNAMES.lib:
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\LIBCMT.lib:
+             Ricerca di C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib\libtiff.lib:
+             Ricerca di C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib\zlib.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+             Ricerca di C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+             Ricerca di ..\lib\libtiff.lib:
+             Ricerca di ..\lib\zlib.lib:
+             Ricerca di C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\msvcprt.lib:
+         
+         Ricerca librerie terminata
+         
+         Chiamata di rc.exe:
+          /v
+          /x
+          /fo
+          "C:\Users\Ludo\AppData\Local\Temp\lnk{B3C99B00-BBC8-46ED-8280-C080D7178FC8}.tmp"
+          "C:\Users\Ludo\AppData\Local\Temp\lnk{C0BA5A4C-4436-4AF7-9C1F-334D9326BB3A}.tmp"
+         Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17298
+         
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         
+         Creating C:\Users\Ludo\AppData\Local\Temp\lnk{B3C99B00-BBC8-46ED-8280-C080D7178FC8}.tmp
+         
+         Using codepage 1252 as default
+         
+         C:\Users\Ludo\AppData\Local\Temp\lnk{C0BA5A4C-4436-4AF7-9C1F-334D9326BB3A}.tmp.
+         Writing 24:2,	lang:0x409,	size 381
+         
+         Chiamata di cvtres.exe:
+          /machine:x86
+          /verbose
+          /out:"C:\Users\Ludo\AppData\Local\Temp\lnk{D1E8B0E4-9247-4187-82D4-2CD034A51550}.tmp"
+          /readonly
+          "C:\Users\Ludo\AppData\Local\Temp\lnk{B3C99B00-BBC8-46ED-8280-C080D7178FC8}.tmp"
+         Microsoft (R) Windows Resource To Object Converter versione 12.00.21005.1
+         Copyright (C) Microsoft Corporation. Tutti i diritti riservati.
+         
+         aggiunta di risorsa. Tipo: MANIFEST, nome: 2, linguaggio: 0x0409, flag:0x30, dimensione: 381
+         
+         Librerie non utilizzate:
+           C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\lib\zlib.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib
+           ..\lib\libtiff.lib
+           ..\lib\zlib.lib
+           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\LIBCMT.lib
+         
+         
+         Elaborazione delle opzioni /ORDER in corso...
+             Oggetti di codice esterni non elencati nel file /ORDER:
+         
+                 _real@bff0000000000000		; libtiff.lib(tif_dirread.obj)
+                 _imp___initterm		; MSVCRT.lib(MSVCR120.dll)
+                 _real@3fde50d794b8199e		; libtiff.lib(tif_luv.obj)
+                 _real@41c1999a		; libtiff.lib(tif_pixarlog.obj)
+                 _real@3fffa5e353f7ced9		; libtiff.lib(tif_luv.obj)
+                 ??_C@_0BA@JFNIOLAK@string?5too?5long?$AA@		; DCIMG_LabVIEW.obj
+                 ??_C@_08LLGCOLLL@iostream?$AA@		; dllmain.obj
+                 _tr_flush_bits		; libtiff.lib(trees.obj)
+                 _real@4070000000000000		; libtiff.lib(tif_luv.obj)
+                 ??_R4error_category@std@@6B@		; dllmain.obj
+                 deflateSetDictionary		; libtiff.lib(deflate.obj)
+                 ??_C@_0BD@PJCBIDD@invalid?5block?5type?$AA@		; libtiff.lib(inflate.obj)
+                 _calloc_crt		; MSVCRT.lib(MSVCR120.dll)
+                 crc32		; libtiff.lib(crc32.obj)
+                 _real@3fd1a855de72ab5d		; DCIMG_LabVIEW.obj
+                 _real@3f3504f3		; DCIMG_LabVIEW.obj
+                 _real@3fd0000000000000		; DCIMG_LabVIEW.obj
+                 _real@40462e42fefa39ef		; libtiff.lib(tif_luv.obj)
+                 _imp___onexit		; MSVCRT.lib(MSVCR120.dll)
+                 vfprintf		; MSVCRT.lib(MSVCR120.dll)
+                 _read		; MSVCRT.lib(MSVCR120.dll)
+                 _open		; MSVCRT.lib(MSVCR120.dll)
+                 ??_C@_0L@FNAOCBOG@stream?5end?$AA@		; libtiff.lib(zutil.obj)
+                 _imp___libm_sse2_sqrt_precise		; MSVCRT.lib(MSVCR120.dll)
+                 _real@4f800000		; libtiff.lib(tif_dirwrite.obj)
+                 _real@3f800000		; libtiff.lib(tif_dirwrite.obj)
+                 __raise_securityfailure		; MSVCRT.lib(gs_report.obj)
+                 _real@4071db6dad9c14eb		; libtiff.lib(tif_luv.obj)
+                 ??_R2error_category@std@@8		; dllmain.obj
+                 _malloc_crt		; MSVCRT.lib(MSVCR120.dll)
+                 @__security_check_cookie@4		; MSVCRT.lib(secchk.obj)
+                 ??_R0?AV_Generic_error_category@std@@@8		; dllmain.obj
+                 IsDebuggerPresent@0		; kernel32.lib(KERNEL32.dll)
+                 __dyn_tls_init_callback
+                 ??_C@_0CF@DGDMADCD@invalid?5code?5?9?9?5missing?5end?9of?9b@		; libtiff.lib(inflate.obj)
+                 _imp__LoadLibraryW@4		; kernel32.lib(KERNEL32.dll)
+                 ??0id@locale@std@@QAE@I@Z		; msvcprt.lib(MSVCP120.dll)
+                 _imp___initterm_e		; MSVCRT.lib(MSVCR120.dll)
+                 ??_R2_Iostream_error_category@std@@8		; dllmain.obj
+                 _real@4020a2b23f3bab73		; libtiff.lib(tif_luv.obj)
+                 deflatePending		; libtiff.lib(deflate.obj)
+                 _imp_??2@YAPAXI@Z		; MSVCRT.lib(MSVCR120.dll)
+                 __security_cookie		; MSVCRT.lib(gs_cookie.obj)
+                 zlibVersion		; libtiff.lib(zutil.obj)
+                 _real@3ff05a1cac083127		; libtiff.lib(tif_luv.obj)
+                 ??_C@_0L@KIJFAKBJ@file?5error?$AA@		; libtiff.lib(zutil.obj)
+                 _xmm@ffffab33ffffab33ffffab33ffffab33		; DCIMG_LabVIEW.obj
+                 ??4type_info@@AAEAAV0@ABV0@@Z		; MSVCRT.lib(ti_inst.obj)
+                 _real@3f63fb013fb013fb		; libtiff.lib(tif_luv.obj)
+                 ??_C@_0BA@MOKMMFOD@need?5dictionary?$AA@		; libtiff.lib(zutil.obj)
+                 _real@4008000000000000		; libtiff.lib(tif_luv.obj)
+                 zcfree		; libtiff.lib(zutil.obj)
+                 _imp__IsDebuggerPresent@0		; kernel32.lib(KERNEL32.dll)
+                 qsort		; MSVCRT.lib(MSVCR120.dll)
+                 _real@400199999999999a		; libtiff.lib(tif_aux.obj)
+                 ??_R2_System_error_category@std@@8		; dllmain.obj
+                 ??_R3_Generic_error_category@std@@8		; dllmain.obj
+                 _real@4050000000000000		; libtiff.lib(tif_luv.obj)
+                 ?_Winerror_map@std@@YAPBDH@Z		; msvcprt.lib(MSVCP120.dll)
+                 inflateGetHeader		; libtiff.lib(inflate.obj)
+                 ??_C@_0CE@GMIGFPBB@too?5many?5length?5or?5distance?5symb@		; libtiff.lib(inflate.obj)
+                 _imp___except1		; MSVCRT.lib(MSVCR120.dll)
+                 _real@3beff4eacf8a88b5		; libtiff.lib(tif_luv.obj)
+                 _RTC_Terminate		; MSVCRT.lib(initsect.obj)
+                 ??_C@_1BK@BNIIJFE@?$AAd?$AAc?$AAi?$AAm?$AAg?$AAa?$AAp?$AAi?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@		; DCIMG_LabVIEW.obj
+                 WideCharToMultiByte@32		; kernel32.lib(KERNEL32.dll)
+                 ??_C@_0BE@OGGJBMCE@insufficient?5memory?$AA@		; libtiff.lib(zutil.obj)
+                 deflateTune		; libtiff.lib(deflate.obj)
+                 ??_C@_0L@HAHMBNLP@data?5error?$AA@		; libtiff.lib(zutil.obj)
+                 _xmm@00001d2f00001d2f00001d2f00001d2f		; DCIMG_LabVIEW.obj
+                 _imp__vfprintf		; MSVCRT.lib(MSVCR120.dll)
+                 _xmm@40004000400040004000400040004000		; DCIMG_LabVIEW.obj
+                 crc32_combine64		; libtiff.lib(crc32.obj)
+                 _xmm@ffff94d1ffff94d1ffff94d1ffff94d1		; DCIMG_LabVIEW.obj
+                 _xmm@00000003000000020000000100000000		; DCIMG_LabVIEW.obj
+                 _imp___setjmp3		; MSVCRT.lib(MSVCR120.dll)
+                 Sleep@4		; kernel32.lib(KERNEL32.dll)
+                 deflateCopy		; libtiff.lib(deflate.obj)
+                 _real@0000000000000000		; libtiff.lib(tif_luv.obj)
+                 ??1type_info@@UAE@XZ		; MSVCRT.lib(MSVCR120.dll)
+                 ??_C@_02DPKJAMEF@?$CFd?$AA@		; DCIMG_LabVIEW.obj
+                 ??_C@_0BJ@BLBBCOMO@unknown?5header?5flags?5set?$AA@		; libtiff.lib(inflate.obj)
+                 _imp__GetProcAddress@8		; kernel32.lib(KERNEL32.dll)
+                 ??_C@_0M@BGPPKOGN@dcimg_close?$AA@		; DCIMG_LabVIEW.obj
+                 _except1		; MSVCRT.lib(MSVCR120.dll)
+                 _imp__WideCharToMultiByte@32		; kernel32.lib(KERNEL32.dll)
+                 fprintf		; MSVCRT.lib(MSVCR120.dll)
+                 __security_init_cookie		; MSVCRT.lib(gs_support.obj)
+                 _wassert		; MSVCRT.lib(MSVCR120.dll)
+                 _xmm@ffffeb2fffffeb2fffffeb2fffffeb2f		; DCIMG_LabVIEW.obj
+                 _write		; MSVCRT.lib(MSVCR120.dll)
+                 deflateBound		; libtiff.lib(deflate.obj)
+                 _imp____CxxFrameHandler3		; MSVCRT.lib(MSVCR120.dll)
+                 _xmm@7fffffffffffffff7fffffffffffffff		; libtiff.lib(tif_luv.obj)
+                 _lseek		; MSVCRT.lib(MSVCR120.dll)
+                 __clean_type_info_names_internal		; MSVCRT.lib(MSVCR120.dll)
+                 atexit		; MSVCRT.lib(atonexit.obj)
+                 crc32_combine		; libtiff.lib(crc32.obj)
+                 _imp__sprintf_s		; MSVCRT.lib(MSVCR120.dll)
+                 _xmm@80000000000000008000000000000000		; libtiff.lib(tif_luv.obj)
+                 _imp___lock		; MSVCRT.lib(MSVCR120.dll)
+                 ??_R0?AV_Iostream_error_category@std@@@8		; dllmain.obj
+                 memset		; MSVCRT.lib(MSVCR120.dll)
+                 _real@3ff0000000000000		; DCIMG_LabVIEW.obj
+                 _real@3fccac083126e979		; libtiff.lib(tif_luv.obj)
+                 _imp___wassert		; MSVCRT.lib(MSVCR120.dll)
+                 ??_R4_Generic_error_category@std@@6B@		; dllmain.obj
+                 _except_handler4		; MSVCRT.lib(chandler4gs.obj)
+                 __security_cookie_complement		; MSVCRT.lib(gs_cookie.obj)
+                 _real@4018000000000000		; libtiff.lib(tif_luv.obj)
+                 _fstat64i32		; MSVCRT.lib(MSVCR120.dll)
+                 _lock		; MSVCRT.lib(MSVCR120.dll)
+                 deflateResetKeep		; libtiff.lib(deflate.obj)
+                 _real@3fcaf286bd156c1a		; libtiff.lib(tif_luv.obj)
+                 GetProcAddress@8		; kernel32.lib(KERNEL32.dll)
+                 ??_7_Iostream_error_category@std@@6B@		; dllmain.obj
+                 ??_C@_0O@BFJCFAAK@unknown?5error?$AA@		; dllmain.obj
+                 _imp____dllonexit		; MSVCRT.lib(MSVCR120.dll)
+                 _tr_stored_block		; libtiff.lib(trees.obj)
+                 _real@409ffc0000000000		; libtiff.lib(tif_pixarlog.obj)
+                 ??3@YAXPAX@Z		; MSVCRT.lib(MSVCR120.dll)
+                 strerror		; MSVCRT.lib(MSVCR120.dll)
+                 _CIatan2		; MSVCRT.lib(MSVCR120.dll)
+                 _real@3f00000000000000		; libtiff.lib(tif_luv.obj)
+                 _imp_?_Syserror_map@std@@YAPBDH@Z		; msvcprt.lib(MSVCP120.dll)
+                 _xmm@00009646000096460000964600009646		; DCIMG_LabVIEW.obj
+                 ??_C@_0BA@NKHFCLFB@dcimg_getparaml?$AA@		; DCIMG_LabVIEW.obj
+                 __report_gsfailure		; MSVCRT.lib(gs_report.obj)
+                 _real@3f2fd405d1254c15		; libtiff.lib(tif_luv.obj)
+                 _real@3ff4e7ae914d6fca		; DCIMG_LabVIEW.obj
+                 ?terminate@@YAXXZ		; MSVCRT.lib(MSVCR120.dll)
+                 _imp___read		; MSVCRT.lib(MSVCR120.dll)
+                 _xmm@80000000800000008000000080000000		; libtiff.lib(tif_dirwrite.obj)
+                 _real@c093880000000000		; libtiff.lib(tif_pixarlog.obj)
+                 floor		; MSVCRT.lib(MSVCR120.dll)
+                 GetCurrentThreadId@0		; kernel32.lib(KERNEL32.dll)
+                 _real@3f662e42fefa39ef		; libtiff.lib(tif_luv.obj)
+                 _real@3ff46a7ef9db22d1		; libtiff.lib(tif_luv.obj)
+                 _imp__strerror		; MSVCRT.lib(MSVCR120.dll)
+                 _tr_flush_block		; libtiff.lib(trees.obj)
+                 _real@bbeff4eacf8a88b5		; libtiff.lib(tif_luv.obj)
+                 _real@40e0000000000000		; libtiff.lib(tif_luv.obj)
+                 sscanf		; MSVCRT.lib(MSVCR120.dll)
+                 _real@4049000000000000		; libtiff.lib(tif_luv.obj)
+                 ??_C@_0BE@GONKLEPM@header?5crc?5mismatch?$AA@		; libtiff.lib(inflate.obj)
+                 _initterm		; MSVCRT.lib(MSVCR120.dll)
+                 ??_7type_info@@6B@		; MSVCRT.lib(ti_inst.obj)
+                 ?value@?$integral_constant@_N$0A@@std@@2_NB		; msvcprt.lib(newaop_s.obj)
+                 _imp__IsProcessorFeaturePresent@4		; kernel32.lib(KERNEL32.dll)
+                 malloc		; MSVCRT.lib(MSVCR120.dll)
+                 ??_U@YAPAXI@Z		; msvcprt.lib(newaop_s.obj)
+                 ??_C@_0BF@CJFPCCEG@incompatible?5version?$AA@		; libtiff.lib(zutil.obj)
+                 _imp___open		; MSVCRT.lib(MSVCR120.dll)
+                 ??_7error_category@std@@6B@		; dllmain.obj
+                 _real@41efffffffe00000		; libtiff.lib(tif_dirwrite.obj)
+                 _imp__floor		; MSVCRT.lib(MSVCR120.dll)
+                 ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB		; MSVCRT.lib(initsect.obj)
+                 _imp___CIatan2		; MSVCRT.lib(MSVCR120.dll)
+                 __crtTerminateProcess		; MSVCRT.lib(MSVCR120.dll)
+                 inflatePrime		; libtiff.lib(inflate.obj)
+                 __report_securityfailure		; MSVCRT.lib(gs_report.obj)
+                 _xmm@ffffd4cdffffd4cdffffd4cdffffd4cd		; DCIMG_LabVIEW.obj
+                 _real@3ec3ef15		; DCIMG_LabVIEW.obj
+                 __atonexitinit		; MSVCRT.lib(atonexit.obj)
+                 ?_Generic_object@?$_Error_objects@H@std@@2V_Generic_error_category@2@A		; dllmain.obj
+                 ??_C@_0BG@LBKINIKP@invalid?5distance?5code?$AA@		; libtiff.lib(inflate.obj)
+                 _imp__QueryPerformanceCounter@4		; kernel32.lib(KERNEL32.dll)
+                 _real@4000000000000000		; libtiff.lib(tif_luv.obj)
+                 __report_securityfailureEx		; MSVCRT.lib(gs_report.obj)
+                 inflateInit_		; libtiff.lib(inflate.obj)
+                 __isa_available_default		; DCIMG_LabVIEW.obj
+                 ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB		; MSVCRT.lib(initsect.obj)
+                 _real@402fd4bbaa79dc37		; libtiff.lib(tif_luv.obj)
+                 ??_Etype_info@@UAEPAXI@Z		; MSVCRT.lib(ti_inst.obj)
+                 _FindPESection		; MSVCRT.lib(pesect.obj)
+                 inflateEnd		; libtiff.lib(inflate.obj)
+                 _imp___crt_debugger_hook		; MSVCRT.lib(MSVCR120.dll)
+                 _imp__free		; MSVCRT.lib(MSVCR120.dll)
+                 ??_C@_0BF@MEIGEHBE@incorrect?5data?5check?$AA@		; libtiff.lib(inflate.obj)
+                 _imp__ceil		; MSVCRT.lib(MSVCR120.dll)
+                 _imp_?_Xout_of_range@std@@YAXPBD@Z		; msvcprt.lib(MSVCP120.dll)
+                 _xmm@00000800000008000000080000000800		; DCIMG_LabVIEW.obj
+                 LoadLibraryW@4		; kernel32.lib(KERNEL32.dll)
+                 _real@3f89a00000000000		; libtiff.lib(tif_luv.obj)
+                 _imp__rand		; MSVCRT.lib(MSVCR120.dll)
+                 _real@40a9e40000000000		; libtiff.lib(tif_luv.obj)
+                 _imp____crtUnhandledException		; MSVCRT.lib(MSVCR120.dll)
+                 _crt_debugger_hook		; MSVCRT.lib(MSVCR120.dll)
+                 _real@3ff8000000000000		; libtiff.lib(tif_luv.obj)
+                 ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB		; MSVCRT.lib(initsect.obj)
+                 deflateParams		; libtiff.lib(deflate.obj)
+                 _imp__exit		; MSVCRT.lib(MSVCR120.dll)
+                 _real@3ff010624dd2f1aa		; libtiff.lib(tif_pixarlog.obj)
+                 ??_R0?AV_System_error_category@std@@@8		; dllmain.obj
+                 get_crc_table		; libtiff.lib(crc32.obj)
+                 _ValidateImageBase		; MSVCRT.lib(pesect.obj)
+                 ??_C@_0BI@CFPLBAOH@invalid?5string?5position?$AA@		; DCIMG_LabVIEW.obj
+                 _imp_?_Xlength_error@std@@YAXPBD@Z		; msvcprt.lib(MSVCP120.dll)
+                 _real@40cfff8000000000		; libtiff.lib(tif_pixarlog.obj)
+                 ??_C@_0BO@ECPMAOGG@invalid?5distance?5too?5far?5back?$AA@		; libtiff.lib(inflate.obj)
+                 _real@3fe1517a7bc720bb		; DCIMG_LabVIEW.obj
+                 __CppXcptFilter		; MSVCRT.lib(MSVCR120.dll)
+                 ??_C@_01NOFIACDB@w?$AA@		; DCIMG_LabVIEW.obj
+                 realloc		; MSVCRT.lib(MSVCR120.dll)
+                 _libm_sse2_sqrt_precise		; MSVCRT.lib(MSVCR120.dll)
+                 _real@3f6cac0840000000		; libtiff.lib(tif_luv.obj)
+                 ??_R2type_info@@8		; MSVCRT.lib(ti_inst.obj)
+                 _imp___except_handler4_common		; MSVCRT.lib(MSVCR120.dll)
+                 bsearch		; MSVCRT.lib(MSVCR120.dll)
+                 _real@3f9158b820000000		; libtiff.lib(tif_luv.obj)
+                 inflate		; libtiff.lib(inflate.obj)
+                 _real@43efdecbdaa8c010		; libtiff.lib(tif_luv.obj)
+                 _CxxThrowException@8		; MSVCRT.lib(MSVCR120.dll)
+                 memmove		; MSVCRT.lib(MSVCR120.dll)
+                 inflateInit2_		; libtiff.lib(inflate.obj)
+                 deflate		; libtiff.lib(deflate.obj)
+                 _real@40efffe000000000		; libtiff.lib(tif_aux.obj)
+                 _real@3ff71547652b82fe		; libtiff.lib(tif_luv.obj)
+                 __@@_PchSym_@00@UfhvihUofwlUkiltiznnrmtUnlilwviUwvkvmwvmxrvhUwxrntPozyervdUwxrntPozyervdUwxrntPozyervdUivovzhvUhgwzucOlyq@DFEAA391DBD284EE		; stdafx.obj
+                 ??_R4_Iostream_error_category@std@@6B@		; dllmain.obj
+                 _xmm@46800100468001004680010046800100		; DCIMG_LabVIEW.obj
+                 _imp___libm_sse2_log_precise		; MSVCRT.lib(MSVCR120.dll)
+                 ?id@?$num_put@DV?$back_insert_iterator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@2V0locale@2@A		; dllmain.obj
+                 memcpy		; MSVCRT.lib(MSVCR120.dll)
+                 _DllMainCRTStartup@12		; MSVCRT.lib(crtdll.obj)
+                 deflatePrime		; libtiff.lib(deflate.obj)
+                 ??_R3_System_error_category@std@@8		; dllmain.obj
+                 _imp_?_Xbad_alloc@std@@YAXXZ		; msvcprt.lib(MSVCP120.dll)
+                 _libm_sse2_exp_precise		; MSVCRT.lib(MSVCR120.dll)
+                 deflateInit_		; libtiff.lib(deflate.obj)
+                 _imp_?_Winerror_map@std@@YAPBDH@Z		; msvcprt.lib(MSVCP120.dll)
+                 _real@3faf3b645a1cac08		; libtiff.lib(tif_luv.obj)
+                 _onexit		; MSVCRT.lib(atonexit.obj)
+                 inflateMark		; libtiff.lib(inflate.obj)
+                 NtCurrentTeb		; MSVCRT.lib(crtdll.obj)
+                 _xmm@41f00000000000000000000000000000		; libtiff.lib(tif_dirwrite.obj)
+                 ??_C@_0BE@EMOGCLGO@invalid?5window?5size?$AA@		; libtiff.lib(inflate.obj)
+                 _imp__realloc		; MSVCRT.lib(MSVCR120.dll)
+                 _real@3fe92469c0a7bf3b		; DCIMG_LabVIEW.obj
+                 ??_C@_07DCLBNMLN@generic?$AA@		; dllmain.obj
+                 _imp_??1type_info@@UAE@XZ		; MSVCRT.lib(MSVCR120.dll)
+                 _real@453ff000		; libtiff.lib(tif_pixarlog.obj)
+                 deflateReset		; libtiff.lib(deflate.obj)
+                 _real@43160000		; libtiff.lib(tif_fax3.obj)
+                 ??_C@_0M@EOIGCFHE@dcimg_openA?$AA@		; DCIMG_LabVIEW.obj
+                 _imp__malloc		; MSVCRT.lib(MSVCR120.dll)
+                 ??_R4_System_error_category@std@@6B@		; dllmain.obj
+                 _imp____CppXcptFilter		; MSVCRT.lib(MSVCR120.dll)
+                 _imp___CxxThrowException@8		; MSVCRT.lib(MSVCR120.dll)
+                 _xmm@00000400000004000000040000000400		; DCIMG_LabVIEW.obj
+                 _real@43008000		; DCIMG_LabVIEW.obj
+                 _real@3ff63150b14861ef		; DCIMG_LabVIEW.obj
+                 ??_R1A@?0A@EA@error_category@std@@8		; dllmain.obj
+                 _imp__memcpy		; MSVCRT.lib(MSVCR120.dll)
+                 ??_C@_0N@MKKNPMJD@stream?5error?$AA@		; libtiff.lib(zutil.obj)
+                 _real@40000000		; libtiff.lib(tif_pixarlog.obj)
+                 _real@43f0000000000000		; libtiff.lib(tif_aux.obj)
+                 rand		; MSVCRT.lib(MSVCR120.dll)
+                 ?_Xbad_alloc@std@@YAXXZ		; msvcprt.lib(MSVCP120.dll)
+                 _imp___malloc_crt		; MSVCRT.lib(MSVCR120.dll)
+                 _xmm@00008000000080000000800000008000		; DCIMG_LabVIEW.obj
+                 ??_C@_0BA@GINLCBMP@dcimg_lockframe?$AA@		; DCIMG_LabVIEW.obj
+                 __crtUnhandledException		; MSVCRT.lib(MSVCR120.dll)
+                 deflateSetHeader		; libtiff.lib(deflate.obj)
+                 _imp__sscanf		; MSVCRT.lib(MSVCR120.dll)
+                 _imp__memmove		; MSVCRT.lib(MSVCR120.dll)
+                 _imp__memset		; MSVCRT.lib(MSVCR120.dll)
+                 ??_C@_0BL@IHKGDAEE@unknown?5compression?5method?$AA@		; libtiff.lib(inflate.obj)
+                 _imp__sprintf		; MSVCRT.lib(MSVCR120.dll)
+                 inflateCopy		; libtiff.lib(inflate.obj)
+                 ??_R0?AVerror_category@std@@@8		; dllmain.obj
+                 __iob_func		; MSVCRT.lib(MSVCR120.dll)
+                 _imp__GetCurrentProcessId@0		; kernel32.lib(KERNEL32.dll)
+                 ??_R3_Iostream_error_category@std@@8		; dllmain.obj
+                 _tr_align		; libtiff.lib(trees.obj)
+                 adler32		; libtiff.lib(adler32.obj)
+                 QueryPerformanceCounter@4		; kernel32.lib(KERNEL32.dll)
+                 _imp__FreeLibrary@4		; kernel32.lib(KERNEL32.dll)
+                 inflateSyncPoint		; libtiff.lib(inflate.obj)
+                 ??_R1A@?0A@EA@_Generic_error_category@std@@8		; dllmain.obj
+                 adler32_combine64		; libtiff.lib(adler32.obj)
+                 ??_7_System_error_category@std@@6B@		; dllmain.obj
+                 _tr_tally		; libtiff.lib(trees.obj)
+                 _real@3ff29ba5e353f7cf		; libtiff.lib(tif_luv.obj)
+                 longjmp		; MSVCRT.lib(MSVCR120.dll)
+                 _unlock		; MSVCRT.lib(MSVCR120.dll)
+                 _real@3fec835e		; DCIMG_LabVIEW.obj
+                 _real@4005851eb851eb85		; libtiff.lib(tif_luv.obj)
+                 GetCurrentProcessId@0		; kernel32.lib(KERNEL32.dll)
+                 ??_R0?AVtype_info@@@8		; MSVCRT.lib(ti_inst.obj)
+                 _imp__GetSystemTimeAsFileTime@4		; kernel32.lib(KERNEL32.dll)
+                 ??_C@_0BG@GMDFCBGP@invalid?5distances?5set?$AA@		; libtiff.lib(inflate.obj)
+                 _imp__longjmp		; MSVCRT.lib(MSVCR120.dll)
+                 sprintf_s		; MSVCRT.lib(MSVCR120.dll)
+                 _purecall		; MSVCRT.lib(MSVCR120.dll)
+                 ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB		; MSVCRT.lib(initsect.obj)
+                 ??_R1A@?0A@EA@type_info@@8		; MSVCRT.lib(ti_inst.obj)
+                 _real@3f00002000400080		; libtiff.lib(tif_luv.obj)
+                 _real@3fda7ef9db22d0e5		; libtiff.lib(tif_luv.obj)
+                 ??_C@_0N@DFPGLBGC@buffer?5error?$AA@		; libtiff.lib(zutil.obj)
+                 ??_R3error_category@std@@8		; dllmain.obj
+                 inflateSetDictionary		; libtiff.lib(inflate.obj)
+                 inflateGetDictionary		; libtiff.lib(inflate.obj)
+                 EncodePointer@4		; kernel32.lib(KERNEL32.dll)
+                 _RTC_Initialize		; MSVCRT.lib(initsect.obj)
+                 _imp____crtTerminateProcess		; MSVCRT.lib(MSVCR120.dll)
+                 ?value@?$integral_constant@_N$00@std@@2_NB		; msvcprt.lib(newaop_s.obj)
+                 ??_C@_00CNPNBAHC@?$AA@		; libtiff.lib(zutil.obj)
+                 sprintf		; MSVCRT.lib(MSVCR120.dll)
+                 zcalloc		; libtiff.lib(zutil.obj)
+                 _xmm@00807fff00807fff00807fff00807fff		; DCIMG_LabVIEW.obj
+                 _xmm@00010001000100010001000100010001		; DCIMG_LabVIEW.obj
+                 _real@3fb504f3		; DCIMG_LabVIEW.obj
+                 _real@4f000000		; libtiff.lib(tif_dirwrite.obj)
+                 _real@40273d75		; DCIMG_LabVIEW.obj
+                 _imp__strncmp		; MSVCRT.lib(MSVCR120.dll)
+                 _imp___fstat64i32		; MSVCRT.lib(MSVCR120.dll)
+                 _imp____clean_type_info_names_internal		; MSVCRT.lib(MSVCR120.dll)
+                 _real@3fa73d75		; DCIMG_LabVIEW.obj
+                 _imp___amsg_exit		; MSVCRT.lib(MSVCR120.dll)
+                 ?_Iostream_object@?$_Error_objects@H@std@@2V_Iostream_error_category@2@A		; dllmain.obj
+                 GetSystemTimeAsFileTime@4		; kernel32.lib(KERNEL32.dll)
+                 strncmp		; MSVCRT.lib(MSVCR120.dll)
+                 inflateSync		; libtiff.lib(inflate.obj)
+                 ??_C@_0BJ@HDEPPGOH@invalid?5code?5lengths?5set?$AA@		; libtiff.lib(inflate.obj)
+                 _real@3fc0000000000000		; DCIMG_LabVIEW.obj
+                 adler32_combine		; libtiff.lib(adler32.obj)
+                 _real@4022000000000000		; libtiff.lib(tif_luv.obj)
+                 _xmm@00004c8b00004c8b00004c8b00004c8b		; DCIMG_LabVIEW.obj
+                 DecodePointer@4		; kernel32.lib(KERNEL32.dll)
+                 _real@c3efdecbdaa8c010		; libtiff.lib(tif_luv.obj)
+                 ??_R2_Generic_error_category@std@@8		; dllmain.obj
+                 ??_C@_0BH@FGKKJGOC@incorrect?5length?5check?$AA@		; libtiff.lib(inflate.obj)
+                 ??_C@_0BM@IIMGAINC@invalid?5literal?1lengths?5set?$AA@		; libtiff.lib(inflate.obj)
+                 ?_System_object@?$_Error_objects@H@std@@2V_System_error_category@2@A		; dllmain.obj
+                 _real@3f862e42fefa39ef		; libtiff.lib(tif_luv.obj)
+                 __native_startup_state
+                 ??_C@_05IAIEPMAK@1?42?48?$AA@		; libtiff.lib(zutil.obj)
+                 __report_rangecheckfailure		; MSVCRT.lib(gs_report.obj)
+                 _imp_??3@YAXPAX@Z		; MSVCRT.lib(MSVCR120.dll)
+                 deflateInit2_		; libtiff.lib(deflate.obj)
+                 _real@40228f5c		; libtiff.lib(tif_fax3.obj)
+                 ??_C@_0BH@LIBMMIGA@incorrect?5header?5check?$AA@		; libtiff.lib(inflate.obj)
+                 _imp___libm_sse2_exp_precise		; MSVCRT.lib(MSVCR120.dll)
+                 ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB		; MSVCRT.lib(initsect.obj)
+                 ??_C@_0BN@LGAADGOK@invalid?5stored?5block?5lengths?$AA@		; libtiff.lib(inflate.obj)
+                 __clean_type_info_names		; MSVCRT.lib(tncleanup.obj)
+                 _imp__EncodePointer@4		; kernel32.lib(KERNEL32.dll)
+                 _imp_?terminate@@YAXXZ		; MSVCRT.lib(MSVCR120.dll)
+                 _imp___libm_sse2_pow_precise		; MSVCRT.lib(MSVCR120.dll)
+                 inflate_table		; libtiff.lib(inftrees.obj)
+                 __CxxFrameHandler3		; MSVCRT.lib(MSVCR120.dll)
+                 _IsNonwritableInCurrentImage		; MSVCRT.lib(pesect.obj)
+                 _imp__DecodePointer@4		; kernel32.lib(KERNEL32.dll)
+                 _imp___write		; MSVCRT.lib(MSVCR120.dll)
+                 _amsg_exit		; MSVCRT.lib(MSVCR120.dll)
+                 _imp__fprintf		; MSVCRT.lib(MSVCR120.dll)
+                 _imp___lseek		; MSVCRT.lib(MSVCR120.dll)
+                 _real@3fa6872b020c49ba		; libtiff.lib(tif_luv.obj)
+                 ?id@?$num_put@_WV?$back_insert_iterator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@std@@2V0locale@2@A		; dllmain.obj
+                 ??2@YAPAXI@Z		; MSVCRT.lib(MSVCR120.dll)
+                 _imp___wopen		; MSVCRT.lib(MSVCR120.dll)
+                 _real@4079a00000000000		; libtiff.lib(tif_luv.obj)
+                 _imp____iob_func		; MSVCRT.lib(MSVCR120.dll)
+                 inflateReset2		; libtiff.lib(inflate.obj)
+                 _imp__bsearch		; MSVCRT.lib(MSVCR120.dll)
+                 _real@cf000000		; libtiff.lib(tif_dirwrite.obj)
+                 ceil		; MSVCRT.lib(MSVCR120.dll)
+                 _real@3fe0000000000000		; DCIMG_LabVIEW.obj
+                 _real@406fe00000000000		; libtiff.lib(tif_pixarlog.obj)
+                 _real@bf800000		; libtiff.lib(tif_dirwrite.obj)
+                 _libm_sse2_pow_precise		; MSVCRT.lib(MSVCR120.dll)
+                 inflateResetKeep		; libtiff.lib(inflate.obj)
+                 _hypot		; MSVCRT.lib(MSVCR120.dll)
+                 _setjmp3		; MSVCRT.lib(MSVCR120.dll)
+                 _close		; MSVCRT.lib(MSVCR120.dll)
+                 zError		; libtiff.lib(zutil.obj)
+                 _imp__qsort		; MSVCRT.lib(MSVCR120.dll)
+                 __native_startup_lock
+                 ??0type_info@@AAE@ABV0@@Z		; MSVCRT.lib(ti_inst.obj)
+                 ??_7_Generic_error_category@std@@6B@		; dllmain.obj
+                 getenv		; MSVCRT.lib(MSVCR120.dll)
+                 _real@46800100		; DCIMG_LabVIEW.obj
+                 _imp___close		; MSVCRT.lib(MSVCR120.dll)
+                 _imp___errno		; MSVCRT.lib(MSVCR120.dll)
+                 _real@44800000		; DCIMG_LabVIEW.obj
+                 _imp___hypot		; MSVCRT.lib(MSVCR120.dll)
+                 _real@402e000000000000		; libtiff.lib(tif_luv.obj)
+                 _except_handler4_common		; MSVCRT.lib(MSVCR120.dll)
+                 ??_C@_0BM@FFFLPBBC@invalid?5literal?1length?5code?$AA@		; libtiff.lib(inflate.obj)
+                 __onexitbegin
+                 ?_Xout_of_range@std@@YAXPBD@Z		; msvcprt.lib(MSVCP120.dll)
+                 ??_R4type_info@@6B@		; MSVCRT.lib(ti_inst.obj)
+                 ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z		; MSVCRT.lib(ehvecdtr.obj)
+                 ??_C@_0BG@PADBLCHM@iostream?5stream?5error?$AA@		; dllmain.obj
+                 _real@4020000000000000		; DCIMG_LabVIEW.obj
+                 _real@45000000		; libtiff.lib(tif_pixarlog.obj)
+                 ??_C@_0BK@BMMPFBBH@invalid?5bit?5length?5repeat?$AA@		; libtiff.lib(inflate.obj)
+                 _imp__getenv		; MSVCRT.lib(MSVCR120.dll)
+                 _libm_sse2_log_precise		; MSVCRT.lib(MSVCR120.dll)
+                 _real@4010000000000000		; libtiff.lib(tif_luv.obj)
+                 ??_C@_04NHNAJCMC@?4tif?$AA@		; DCIMG_LabVIEW.obj
+                 IsProcessorFeaturePresent@4		; kernel32.lib(KERNEL32.dll)
+                 _wopen		; MSVCRT.lib(MSVCR120.dll)
+                 free		; MSVCRT.lib(MSVCR120.dll)
+                 _real@3f8a8bd4		; DCIMG_LabVIEW.obj
+                 deflateEnd		; libtiff.lib(deflate.obj)
+                 _imp___calloc_crt		; MSVCRT.lib(MSVCR120.dll)
+                 _real@3f0a8bd4		; DCIMG_LabVIEW.obj
+                 _imp__GetCurrentThreadId@0		; kernel32.lib(KERNEL32.dll)
+                 _CRT_INIT@12		; MSVCRT.lib(crtdll.obj)
+                 ??_R1A@?0A@EA@_System_error_category@std@@8		; dllmain.obj
+                 ?_Xlength_error@std@@YAXPBD@Z		; msvcprt.lib(MSVCP120.dll)
+                 exit		; MSVCRT.lib(MSVCR120.dll)
+                 _imp__Sleep@4		; kernel32.lib(KERNEL32.dll)
+                 _errno		; MSVCRT.lib(MSVCR120.dll)
+                 __dllonexit		; MSVCRT.lib(MSVCR120.dll)
+                 ??_M@YGXPAXIHP6EX0@Z@Z		; MSVCRT.lib(ehvecdtr.obj)
+                 _imp_??0id@locale@std@@QAE@I@Z		; msvcprt.lib(MSVCP120.dll)
+                 FreeLibrary@4		; kernel32.lib(KERNEL32.dll)
+                 _tr_init		; libtiff.lib(trees.obj)
+                 _initterm_e		; MSVCRT.lib(MSVCR120.dll)
+                 ?_Syserror_map@std@@YAPBDH@Z		; msvcprt.lib(MSVCP120.dll)
+                 inflateReset		; libtiff.lib(inflate.obj)
+                 __isa_available_init		; MSVCRT.lib(cpu_disp.obj)
+                 _real@3ff2d062ef6c11aa		; DCIMG_LabVIEW.obj
+                 _real@4028000000000000		; libtiff.lib(tif_luv.obj)
+                 ??_C@_06FHFOAHML@system?$AA@		; dllmain.obj
+                 inflateUndermine		; libtiff.lib(inflate.obj)
+                 _real@c000000000000000		; libtiff.lib(tif_pixarlog.obj)
+                 ?npos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@2IB		; DCIMG_LabVIEW.obj
+                 ??_R3type_info@@8		; MSVCRT.lib(ti_inst.obj)
+                 zlibCompileFlags		; libtiff.lib(zutil.obj)
+                 _real@4030000000000000		; libtiff.lib(tif_luv.obj)
+                 _real@402f7be76c8b4396		; libtiff.lib(tif_luv.obj)
+                 __onexitend
+                 ??_R1A@?0A@EA@_Iostream_error_category@std@@8		; dllmain.obj
+                 _imp___unlock		; MSVCRT.lib(MSVCR120.dll)
+                 _imp___purecall		; MSVCRT.lib(MSVCR120.dll)
+         
+         Elaborazione delle opzioni /ORDER terminata
+             Annullato __real@0000000000000000 da libtiff.lib(tif_luv.obj)
+             Annullato "`string'" (??_C@_05IAIEPMAK@1?42?48?$AA@) da libtiff.lib(zutil.obj)
+             Annullato "public: static bool const std::integral_constant<bool,0>::value" (?value@?$integral_constant@_N$0A@@std@@2_NB) da msvcprt.lib(newaop_s.obj)
+             Annullato "public: static bool const std::integral_constant<bool,1>::value" (?value@?$integral_constant@_N$00@std@@2_NB) da msvcprt.lib(newaop_s.obj)
+             Annullato "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessDetach" (?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB) da MSVCRT.lib(initsect.obj)
+             Annullato "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessAttach" (?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB) da MSVCRT.lib(initsect.obj)
+             Annullato "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ThreadAttach" (?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB) da MSVCRT.lib(initsect.obj)
+             Annullato "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ThreadDetach" (?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB) da MSVCRT.lib(initsect.obj)
+             Annullato "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessVerifier" (?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB) da MSVCRT.lib(initsect.obj)
+             Annullato "public: static unsigned int const std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::npos" (?npos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@2IB) da DCIMG_LabVIEW.obj
+             Annullato ___isa_available_default da DCIMG_LabVIEW.obj
+             Annullato '.idata$4' da kernel32.lib(KERNEL32.dll)
+             Annullato '.idata$4' da msvcprt.lib(MSVCP120.dll)
+             Annullato '.idata$4' da MSVCRT.lib(MSVCR120.dll)
+             Annullato __imp__Sleep@4 da kernel32.lib(KERNEL32.dll)
+             Annullato "__declspec(dllimport) public: __thiscall std::locale::id::id(unsigned int)" (__imp_??0id@locale@std@@QAE@I@Z) da msvcprt.lib(MSVCP120.dll)
+             Annullato __imp___hypot da MSVCRT.lib(MSVCR120.dll)
+             Annullato '.idata$6' da kernel32.lib(KERNEL32.dll)
+             Annullato '.idata$6' da msvcprt.lib(MSVCP120.dll)
+             Annullato '.idata$6' da MSVCRT.lib(MSVCR120.dll)
+             Annullato "public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::length(void)const " (?length@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ) da DCIMG_LabVIEW.obj
+             Annullato "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign<class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > > >(class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >)" (??$assign@V?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@V?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@1@0@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::replace(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >)" (?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@2@0V?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@2@1@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::replace(unsigned int,unsigned int,char const *,unsigned int)" (?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@IIPBDI@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: bool __thiscall std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >::operator==(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > > const &)const " (??8?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QBE_NABV01@@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: char & __thiscall std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >::operator*(void)const " (??D?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QBEAADXZ) da DCIMG_LabVIEW.obj
+             Annullato "public: int __thiscall std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >::operator-(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > > const &)const " (??G?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QBEHABV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@1@@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::replace(unsigned int,unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,unsigned int)" (?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@IIABV12@II@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: char const & __thiscall std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >::operator*(void)const " (??D?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QBEABDXZ) da DCIMG_LabVIEW.obj
+             Annullato "public: void __thiscall std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >::_Compat(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > > const &)const " (?_Compat@?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QBEXABV12@@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: int __thiscall std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >::operator-(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > > const &)const " (??G?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QBEHABV01@@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: static unsigned int __cdecl std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Pdif(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >)" (?_Pdif@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@SAIV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@2@0@Z) da DCIMG_LabVIEW.obj
+             Annullato "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > && __cdecl std::forward<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (??$forward@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YA$$QAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AAV10@@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::begin(void)" (?begin@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE?AV?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@2@XZ) da DCIMG_LabVIEW.obj
+             Annullato "public: void __thiscall std::_Iterator_base0::_Adopt(void const *)" (?_Adopt@_Iterator_base0@std@@QAEXPBX@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: __thiscall std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >(char const *,struct std::_Container_base0 const *)" (??0?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QAE@PBDPBU_Container_base0@1@@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: __thiscall std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >(char *,struct std::_Container_base0 const *)" (??0?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QAE@PADPBU_Container_base0@1@@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::end(void)" (?end@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE?AV?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@2@XZ) da DCIMG_LabVIEW.obj
+             Annullato "public: char const * __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::c_str(void)const " (?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ) da DCIMG_LabVIEW.obj
+             Annullato "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::append(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: static char * __cdecl std::char_traits<char>::assign(char *,unsigned int,char)" (?assign@?$char_traits@D@std@@SAPADPADID@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Chassign(unsigned int,unsigned int,char)" (?_Chassign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXIID@Z) da DCIMG_LabVIEW.obj
+             Annullato "bool __cdecl std::operator==<char,char>(class std::allocator<char> const &,class std::allocator<char> const &)" (??$?8DD@std@@YA_NABV?$allocator@D@0@0@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: __thiscall std::allocator<char>::allocator<char>(class std::allocator<char> const &)" (??0?$allocator@D@std@@QAE@ABV01@@Z) da DCIMG_LabVIEW.obj
+             Annullato "bool __cdecl std::operator==<class std::allocator<char>,class std::allocator<char> >(struct std::_Wrap_alloc<class std::allocator<char> > const &,struct std::_Wrap_alloc<class std::allocator<char> > const &)" (??$?8V?$allocator@D@std@@V01@@std@@YA_NABU?$_Wrap_alloc@V?$allocator@D@std@@@0@0@Z) da DCIMG_LabVIEW.obj
+             Annullato "bool __cdecl std::operator!=<class std::allocator<char>,class std::allocator<char> >(struct std::_Wrap_alloc<class std::allocator<char> > const &,struct std::_Wrap_alloc<class std::allocator<char> > const &)" (??$?9V?$allocator@D@std@@V01@@std@@YA_NABU?$_Wrap_alloc@V?$allocator@D@std@@@0@0@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: void __thiscall std::_String_alloc<0,struct std::_String_base_types<char,class std::allocator<char> > >::_Change_alloc(struct std::_Wrap_alloc<class std::allocator<char> > const &)" (?_Change_alloc@?$_String_alloc@$0A@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEXABU?$_Wrap_alloc@V?$allocator@D@std@@@2@@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::operator=(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@ABV01@@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: bool __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Inside(char const *)" (?_Inside@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE_NPBD@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::size(void)const " (?size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ) da DCIMG_LabVIEW.obj
+             Annullato "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::erase(unsigned int)" (?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@I@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Xran(void)const " (?_Xran@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEXXZ) da DCIMG_LabVIEW.obj
+             Annullato "public: static char * __cdecl std::char_traits<char>::move(char *,char const *,unsigned int)" (?move@?$char_traits@D@std@@SAPADPADPBDI@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: char const * __thiscall std::_String_val<struct std::_Simple_types<char> >::_Myptr(void)const " (?_Myptr@?$_String_val@U?$_Simple_types@D@std@@@std@@QBEPBDXZ) da DCIMG_LabVIEW.obj
+             Annullato "public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Xlen(void)const " (?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEXXZ) da DCIMG_LabVIEW.obj
+             Annullato "public: unsigned int __thiscall std::allocator<char>::max_size(void)const " (?max_size@?$allocator@D@std@@QBEIXZ) da DCIMG_LabVIEW.obj
+             Annullato "public: static unsigned int __cdecl std::allocator_traits<class std::allocator<char> >::max_size(class std::allocator<char> const &)" (?max_size@?$allocator_traits@V?$allocator@D@std@@@std@@SAIABV?$allocator@D@2@@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: unsigned int __thiscall std::_Wrap_alloc<class std::allocator<char> >::max_size(void)const " (?max_size@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QBEIXZ) da DCIMG_LabVIEW.obj
+             Annullato "public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::max_size(void)const " (?max_size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ) da DCIMG_LabVIEW.obj
+             Annullato "char * __cdecl std::_Allocate<char>(unsigned int,char *)" (??$_Allocate@D@std@@YAPADIPAD@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: char * __thiscall std::allocator<char>::allocate(unsigned int)" (?allocate@?$allocator@D@std@@QAEPADI@Z) da DCIMG_LabVIEW.obj
+             Annullato "void * __cdecl operator new(unsigned int,void *)" (??2@YAPAXIPAX@Z) da DCIMG_LabVIEW.obj
+             Annullato "void __cdecl operator delete(void *,void *)" (??3@YAXPAX0@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: void __thiscall std::allocator<char>::construct<char *,char * &>(char * *,char * &)" (??$construct@PADAAPAD@?$allocator@D@std@@QAEXPAPADAAPAD@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: static void __cdecl std::allocator_traits<class std::allocator<char> >::construct<char *,char * &>(class std::allocator<char> &,char * *,char * &)" (??$construct@PADAAPAD@?$allocator_traits@V?$allocator@D@std@@@std@@SAXAAV?$allocator@D@1@PAPADAAPAD@Z) da DCIMG_LabVIEW.obj
+             Annullato "char * & __cdecl std::forward<char * &>(char * &)" (??$forward@AAPAD@std@@YAAAPADAAPAD@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: void __thiscall std::_Wrap_alloc<class std::allocator<char> >::construct<char *,char * &>(char * *,char * &)" (??$construct@PADAAPAD@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAEXPAPADAAPAD@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: static unsigned int __cdecl std::char_traits<char>::length(char const *)" (?length@?$char_traits@D@std@@SAIPBD@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign(char const *)" (?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBD@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(char const *)" (??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: __thiscall std::_String_val<struct std::_Simple_types<char> >::_String_val<struct std::_Simple_types<char> >(void)" (??0?$_String_val@U?$_Simple_types@D@std@@@std@@QAE@XZ) da DCIMG_LabVIEW.obj
+             Annullato "public: __thiscall std::_String_alloc<0,struct std::_String_base_types<char,class std::allocator<char> > >::_String_alloc<0,struct std::_String_base_types<char,class std::allocator<char> > >(class std::allocator<char> const &)" (??0?$_String_alloc@$0A@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAE@ABV?$allocator@D@1@@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: void __thiscall std::allocator<char>::destroy<char *>(char * *)" (??$destroy@PAD@?$allocator@D@std@@QAEXPAPAD@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: static void __cdecl std::allocator_traits<class std::allocator<char> >::destroy<char *>(class std::allocator<char> &,char * *)" (??$destroy@PAD@?$allocator_traits@V?$allocator@D@std@@@std@@SAXAAV?$allocator@D@1@PAPAD@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: void __thiscall std::_Wrap_alloc<class std::allocator<char> >::destroy<char *>(char * *)" (??$destroy@PAD@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAEXPAPAD@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: static char * __cdecl std::char_traits<char>::copy(char *,char const *,unsigned int)" (?copy@?$char_traits@D@std@@SAPADPADPBDI@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: void __thiscall std::allocator<char>::deallocate(char *,unsigned int)" (?deallocate@?$allocator@D@std@@QAEXPADI@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: void __thiscall std::_Wrap_alloc<class std::allocator<char> >::deallocate(char *,unsigned int)" (?deallocate@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAEXPADI@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: __thiscall std::allocator<char>::allocator<char>(void)" (??0?$allocator@D@std@@QAE@XZ) da DCIMG_LabVIEW.obj
+             Annullato "public: __thiscall std::_Wrap_alloc<class std::allocator<char> >::_Wrap_alloc<class std::allocator<char> >(void)" (??0?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAE@XZ) da DCIMG_LabVIEW.obj
+             Annullato "public: struct std::_Wrap_alloc<class std::allocator<char> > __thiscall std::_String_alloc<0,struct std::_String_base_types<char,class std::allocator<char> > >::_Getal(void)const " (?_Getal@?$_String_alloc@$0A@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QBE?AU?$_Wrap_alloc@V?$allocator@D@std@@@2@XZ) da DCIMG_LabVIEW.obj
+             Annullato "public: static void __cdecl std::char_traits<char>::assign(char &,char const &)" (?assign@?$char_traits@D@std@@SAXAADABD@Z) da DCIMG_LabVIEW.obj
+             Annullato "char * __cdecl std::addressof<char>(char &)" (??$addressof@D@std@@YAPADAAD@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: char * __thiscall std::_String_val<struct std::_Simple_types<char> >::_Myptr(void)" (?_Myptr@?$_String_val@U?$_Simple_types@D@std@@@std@@QAEPADXZ) da DCIMG_LabVIEW.obj
+             Annullato "public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Eos(unsigned int)" (?_Eos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXI@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Tidy(bool,unsigned int)" (?_Tidy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX_NI@Z) da DCIMG_LabVIEW.obj
+             Annullato "public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)" (??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ) da DCIMG_LabVIEW.obj
+             Annullato "public: __thiscall std::error_category::error_category(void)" (??0error_category@std@@QAE@XZ) da dllmain.obj
+             Annullato "public: virtual __thiscall std::error_category::~error_category(void)" (??1error_category@std@@UAE@XZ) da dllmain.obj
+             Annullato "public: bool __thiscall std::error_category::operator==(class std::error_category const &)const " (??8error_category@std@@QBE_NABV01@@Z) da dllmain.obj
+             Annullato "public: int __thiscall std::error_code::value(void)const " (?value@error_code@std@@QBEHXZ) da dllmain.obj
+             Annullato "public: class std::error_category const & __thiscall std::error_code::category(void)const " (?category@error_code@std@@QBEABVerror_category@2@XZ) da dllmain.obj
+             Annullato "public: __thiscall std::error_condition::error_condition(int,class std::error_category const &)" (??0error_condition@std@@QAE@HABVerror_category@1@@Z) da dllmain.obj
+             Annullato "public: int __thiscall std::error_condition::value(void)const " (?value@error_condition@std@@QBEHXZ) da dllmain.obj
+             Annullato "public: class std::error_category const & __thiscall std::error_condition::category(void)const " (?category@error_condition@std@@QBEABVerror_category@2@XZ) da dllmain.obj
+             Annullato "public: bool __thiscall std::error_condition::operator==(class std::error_condition const &)const " (??8error_condition@std@@QBE_NABV01@@Z) da dllmain.obj
+             Annullato "public: __thiscall std::_Generic_error_category::_Generic_error_category(void)" (??0_Generic_error_category@std@@QAE@XZ) da dllmain.obj
+             Annullato "public: virtual __thiscall std::_Generic_error_category::~_Generic_error_category(void)" (??1_Generic_error_category@std@@UAE@XZ) da dllmain.obj
+             Annullato "public: __thiscall std::_Iostream_error_category::_Iostream_error_category(void)" (??0_Iostream_error_category@std@@QAE@XZ) da dllmain.obj
+             Annullato "public: virtual __thiscall std::_Iostream_error_category::~_Iostream_error_category(void)" (??1_Iostream_error_category@std@@UAE@XZ) da dllmain.obj
+             Annullato "public: __thiscall std::_System_error_category::_System_error_category(void)" (??0_System_error_category@std@@QAE@XZ) da dllmain.obj
+             Annullato "public: virtual __thiscall std::_System_error_category::~_System_error_category(void)" (??1_System_error_category@std@@UAE@XZ) da dllmain.obj
+             Annullato "class std::error_category const & __cdecl std::generic_category(void)" (?generic_category@std@@YAABVerror_category@1@XZ) da dllmain.obj
+             Annullato "class std::error_category const & __cdecl std::system_category(void)" (?system_category@std@@YAABVerror_category@1@XZ) da dllmain.obj
+             Annullato _jpeg_alloc_quant_table da libtiff.lib(jcomapi.obj)
+             Annullato _jpeg_alloc_huff_table da libtiff.lib(jcomapi.obj)
+             Annullato _jpeg_set_linear_quality da libtiff.lib(jcparam.obj)
+             Annullato _jpeg_quality_scaling da libtiff.lib(jcparam.obj)
+             Annullato _std_huff_tables da libtiff.lib(jcparam.obj)
+             Annullato _jpeg_default_colorspace da libtiff.lib(jcparam.obj)
+             Annullato _save_marker da libtiff.lib(jdmarker.obj)
+             Annullato _jinit_input_controller da libtiff.lib(jdinput.obj)
+             Annullato _out_of_memory da libtiff.lib(jmemmgr.obj)
+             Annullato _jinit_master_decompress da libtiff.lib(jdmaster.obj)
+             Annullato _jdiv_round_up da libtiff.lib(jutils.obj)
+             Annullato _jround_up da libtiff.lib(jutils.obj)
+             Annullato _jcopy_sample_rows da libtiff.lib(jutils.obj)
+             Annullato _jcopy_block_row da libtiff.lib(jutils.obj)
+             Annullato _emit_byte da libtiff.lib(jcmarker.obj)
+             Annullato _emit_dri da libtiff.lib(jcmarker.obj)
+             Annullato _jinit_marker_writer da libtiff.lib(jcmarker.obj)
+             Annullato _jpeg_get_small da libtiff.lib(jmemnobs.obj)
+             Annullato _jpeg_free_small da libtiff.lib(jmemnobs.obj)
+             Annullato _jpeg_get_large da libtiff.lib(jmemnobs.obj)
+             Annullato _jpeg_free_large da libtiff.lib(jmemnobs.obj)
+             Annullato _jpeg_mem_available da libtiff.lib(jmemnobs.obj)
+             Annullato _jpeg_open_backing_store da libtiff.lib(jmemnobs.obj)
+             Annullato _jpeg_mem_init da libtiff.lib(jmemnobs.obj)
+             Annullato _jpeg_mem_term da libtiff.lib(jmemnobs.obj)
+             Annullato _output_value da libtiff.lib(jquant1.obj)
+             Annullato _largest_input_value da libtiff.lib(jquant1.obj)
+             Annullato _make_odither_array da libtiff.lib(jquant1.obj)
+             Annullato _get_byte da libtiff.lib(jdarith.obj)
+             Annullato _emit_byte da libtiff.lib(jcarith.obj)
+             Annullato _jpeg_calc_trans_dimensions da libtiff.lib(jcmaster.obj)
+             Annullato _expand_bottom_edge da libtiff.lib(jcprepct.obj)
+             Annullato _dump_buffer_s da libtiff.lib(jchuff.obj)
+             Annullato _dump_buffer_e da libtiff.lib(jchuff.obj)
+             Annullato _flush_bits_s da libtiff.lib(jchuff.obj)
+             Annullato _flush_bits_e da libtiff.lib(jchuff.obj)
+             Annullato _emit_dc_symbol da libtiff.lib(jchuff.obj)
+             Annullato _emit_ac_symbol da libtiff.lib(jchuff.obj)
+             Annullato _htest_one_block da libtiff.lib(jchuff.obj)
+             Annullato _deflateBound da libtiff.lib(deflate.obj)
+             Annullato _deflateCopy da libtiff.lib(deflate.obj)
+             Annullato _deflatePending da libtiff.lib(deflate.obj)
+             Annullato _deflatePrime da libtiff.lib(deflate.obj)
+             Annullato _deflateSetDictionary da libtiff.lib(deflate.obj)
+             Annullato _deflateSetHeader da libtiff.lib(deflate.obj)
+             Annullato _deflateTune da libtiff.lib(deflate.obj)
+             Annullato _inflateCopy da libtiff.lib(inflate.obj)
+             Annullato _inflateGetDictionary da libtiff.lib(inflate.obj)
+             Annullato _inflateGetHeader da libtiff.lib(inflate.obj)
+             Annullato _inflateMark da libtiff.lib(inflate.obj)
+             Annullato _inflatePrime da libtiff.lib(inflate.obj)
+             Annullato _inflateSetDictionary da libtiff.lib(inflate.obj)
+             Annullato _inflateSyncPoint da libtiff.lib(inflate.obj)
+             Annullato _inflateUndermine da libtiff.lib(inflate.obj)
+             Annullato _adler32_combine da libtiff.lib(adler32.obj)
+             Annullato _adler32_combine64 da libtiff.lib(adler32.obj)
+             Annullato _adler32_combine_ da libtiff.lib(adler32.obj)
+             Annullato _crc32_big da libtiff.lib(crc32.obj)
+             Annullato _crc32_combine da libtiff.lib(crc32.obj)
+             Annullato _crc32_combine64 da libtiff.lib(crc32.obj)
+             Annullato _crc32_combine_ da libtiff.lib(crc32.obj)
+             Annullato _get_crc_table da libtiff.lib(crc32.obj)
+             Annullato _gf2_matrix_square da libtiff.lib(crc32.obj)
+             Annullato _gf2_matrix_times da libtiff.lib(crc32.obj)
+             Annullato _zError da libtiff.lib(zutil.obj)
+             Annullato _zlibCompileFlags da libtiff.lib(zutil.obj)
+             Annullato _zlibVersion da libtiff.lib(zutil.obj)
+             Annullato __tr_tally da libtiff.lib(trees.obj)
+             Annullato _tr_static_init da libtiff.lib(trees.obj)
+             Annullato _Sleep@4 da kernel32.lib(KERNEL32.dll)
+             Annullato _LoadLibraryW@4 da kernel32.lib(KERNEL32.dll)
+             Annullato _GetProcAddress@8 da kernel32.lib(KERNEL32.dll)
+             Annullato _FreeLibrary@4 da kernel32.lib(KERNEL32.dll)
+             Annullato _WideCharToMultiByte@32 da kernel32.lib(KERNEL32.dll)
+             Annullato "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ) da msvcprt.lib(MSVCP120.dll)
+             Annullato "void __cdecl std::_Xlength_error(char const *)" (?_Xlength_error@std@@YAXPBD@Z) da msvcprt.lib(MSVCP120.dll)
+             Annullato "void __cdecl std::_Xout_of_range(char const *)" (?_Xout_of_range@std@@YAXPBD@Z) da msvcprt.lib(MSVCP120.dll)
+             Annullato "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z) da msvcprt.lib(MSVCP120.dll)
+             Annullato "char const * __cdecl std::_Syserror_map(int)" (?_Syserror_map@std@@YAPBDH@Z) da msvcprt.lib(MSVCP120.dll)
+             Annullato "public: __thiscall std::locale::id::id(unsigned int)" (??0id@locale@std@@QAE@I@Z) da msvcprt.lib(MSVCP120.dll)
+             Annullato _memmove da MSVCRT.lib(MSVCR120.dll)
+             Annullato _sprintf_s da MSVCRT.lib(MSVCR120.dll)
+             Annullato __hypot da MSVCRT.lib(MSVCR120.dll)
+             Annullato "private: __thiscall type_info::type_info(class type_info const &)" (??0type_info@@AAE@ABV0@@Z) da MSVCRT.lib(ti_inst.obj)
+             Annullato "private: class type_info & __thiscall type_info::operator=(class type_info const &)" (??4type_info@@AAEAAV0@ABV0@@Z) da MSVCRT.lib(ti_inst.obj)
+             Annullato _NtCurrentTeb da MSVCRT.lib(crtdll.obj)
+             Annullato __wassert da MSVCRT.lib(MSVCR120.dll)
+             Annullato __errno da MSVCRT.lib(MSVCR120.dll)
+             Annullato _free da MSVCRT.lib(MSVCR120.dll)
+             Annullato _malloc da MSVCRT.lib(MSVCR120.dll)
+             Annullato _realloc da MSVCRT.lib(MSVCR120.dll)
+             Annullato __fstat64i32 da MSVCRT.lib(MSVCR120.dll)
+             Annullato __wopen da MSVCRT.lib(MSVCR120.dll)
+             Annullato _strerror da MSVCRT.lib(MSVCR120.dll)
+             Annullato ___iob_func da MSVCRT.lib(MSVCR120.dll)
+             Annullato _fprintf da MSVCRT.lib(MSVCR120.dll)
+             Annullato _vfprintf da MSVCRT.lib(MSVCR120.dll)
+             Annullato _strncmp da MSVCRT.lib(MSVCR120.dll)
+             Annullato _bsearch da MSVCRT.lib(MSVCR120.dll)
+             Annullato _qsort da MSVCRT.lib(MSVCR120.dll)
+             Annullato _sprintf da MSVCRT.lib(MSVCR120.dll)
+             Annullato _longjmp da MSVCRT.lib(MSVCR120.dll)
+             Annullato _rand da MSVCRT.lib(MSVCR120.dll)
+             Annullato _exit da MSVCRT.lib(MSVCR120.dll)
+             Annullato ___report_securityfailureEx da MSVCRT.lib(gs_report.obj)
+             Annullato _sscanf da MSVCRT.lib(MSVCR120.dll)
+             Annullato _getenv da MSVCRT.lib(MSVCR120.dll)
+             Annullato __calloc_crt da MSVCRT.lib(MSVCR120.dll)
+             Annullato "int __cdecl ArrayUnwindFilter(struct _EXCEPTION_POINTERS *)" (?ArrayUnwindFilter@@YAHPAU_EXCEPTION_POINTERS@@@Z) da MSVCRT.lib(ehvecdtr.obj)
+             Annullato __malloc_crt da MSVCRT.lib(MSVCR120.dll)
+             Annullato _EncodePointer@4 da kernel32.lib(KERNEL32.dll)
+             Annullato _DecodePointer@4 da kernel32.lib(KERNEL32.dll)
+             Annullato _IsDebuggerPresent@0 da kernel32.lib(KERNEL32.dll)
+             Annullato _QueryPerformanceCounter@4 da kernel32.lib(KERNEL32.dll)
+             Annullato _GetCurrentProcessId@0 da kernel32.lib(KERNEL32.dll)
+             Annullato _GetCurrentThreadId@0 da kernel32.lib(KERNEL32.dll)
+             Annullato _GetSystemTimeAsFileTime@4 da kernel32.lib(KERNEL32.dll)
+             Annullato __close da MSVCRT.lib(MSVCR120.dll)
+             Annullato __lseek da MSVCRT.lib(MSVCR120.dll)
+             Annullato __open da MSVCRT.lib(MSVCR120.dll)
+             Annullato __read da MSVCRT.lib(MSVCR120.dll)
+             Annullato __write da MSVCRT.lib(MSVCR120.dll)
+         
+             Simbolo selezionato:
+                 _finish_pass_1_quant da libtiff.lib(jquant1.obj)
+             Simboli sostituiti:
+                 _start_pass_dcolor da libtiff.lib(jdcolor.obj)
+                 _null_method da libtiff.lib(jccolor.obj)
+                 _start_pass_downsample da libtiff.lib(jcsample.obj)
+         
+             Simbolo selezionato:
+                 "public: virtual void * __thiscall std::error_category::`scalar deleting destructor'(unsigned int)" (??_Gerror_category@std@@UAEPAXI@Z) da dllmain.obj
+             Simboli sostituiti:
+                 "public: virtual void * __thiscall std::_Generic_error_category::`scalar deleting destructor'(unsigned int)" (??_G_Generic_error_category@std@@UAEPAXI@Z) da dllmain.obj
+                 "public: virtual void * __thiscall std::_Iostream_error_category::`scalar deleting destructor'(unsigned int)" (??_G_Iostream_error_category@std@@UAEPAXI@Z) da dllmain.obj
+                 "public: virtual void * __thiscall std::_System_error_category::`scalar deleting destructor'(unsigned int)" (??_G_System_error_category@std@@UAEPAXI@Z) da dllmain.obj
+         
+             Salvataggi totali ICF: 108 byte
+         
+         Inizio passaggio 2
+              * CIL library *(* CIL module *)
+              * linker generated manifest res *
+              DCIMG_LabVIEW.exp
+              libtiff.lib(tif_aux.obj)
+              libtiff.lib(tif_close.obj)
+              libtiff.lib(tif_codec.obj)
+              libtiff.lib(tif_compress.obj)
+              libtiff.lib(tif_dir.obj)
+              libtiff.lib(tif_dirinfo.obj)
+              libtiff.lib(tif_dirread.obj)
+              libtiff.lib(tif_dirwrite.obj)
+              libtiff.lib(tif_dumpmode.obj)
+              libtiff.lib(tif_error.obj)
+              libtiff.lib(tif_fax3.obj)
+              libtiff.lib(tif_fax3sm.obj)
+              libtiff.lib(tif_jpeg.obj)
+              libtiff.lib(tif_ojpeg.obj)
+              libtiff.lib(tif_flush.obj)
+              libtiff.lib(tif_luv.obj)
+              libtiff.lib(tif_lzw.obj)
+              libtiff.lib(tif_next.obj)
+              libtiff.lib(tif_open.obj)
+              libtiff.lib(tif_packbits.obj)
+              libtiff.lib(tif_pixarlog.obj)
+              libtiff.lib(tif_predict.obj)
+              libtiff.lib(tif_read.obj)
+              libtiff.lib(tif_swab.obj)
+              libtiff.lib(tif_strip.obj)
+              libtiff.lib(tif_thunder.obj)
+              libtiff.lib(tif_tile.obj)
+              libtiff.lib(tif_warning.obj)
+              libtiff.lib(tif_write.obj)
+              libtiff.lib(tif_zip.obj)
+              libtiff.lib(tif_unix.obj)
+              libtiff.lib(zutil.obj)
+              libtiff.lib(trees.obj)
+              libtiff.lib(inftrees.obj)
+              libtiff.lib(inflate.obj)
+              libtiff.lib(deflate.obj)
+              libtiff.lib(crc32.obj)
+              libtiff.lib(adler32.obj)
+              libtiff.lib(inffas32.obj)
+              libtiff.lib(match686.obj)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              msvcprt.lib(newaop_s.obj)
+              msvcprt.lib(MSVCP120.dll)
+              msvcprt.lib(MSVCP120.dll)
+              msvcprt.lib(MSVCP120.dll)
+              msvcprt.lib(MSVCP120.dll)
+              msvcprt.lib(MSVCP120.dll)
+              msvcprt.lib(MSVCP120.dll)
+              msvcprt.lib(MSVCP120.dll)
+              msvcprt.lib(MSVCP120.dll)
+              MSVCRT.lib(ehvecdtr.obj)
+              MSVCRT.lib(tncleanup.obj)
+              MSVCRT.lib(atonexit.obj)
+              MSVCRT.lib(cinitexe.obj)
+              MSVCRT.lib(crtdll.obj)
+              MSVCRT.lib(gs_cookie.obj)
+              MSVCRT.lib(gs_report.obj)
+              MSVCRT.lib(gs_support.obj)
+              MSVCRT.lib(natstart.obj)
+              MSVCRT.lib(pesect.obj)
+              MSVCRT.lib(ti_inst.obj)
+              MSVCRT.lib(dllsupp.obj)
+              MSVCRT.lib(lldiv.obj)
+              MSVCRT.lib(llmul.obj)
+              MSVCRT.lib(ulldiv.obj)
+              MSVCRT.lib(chandler4gs.obj)
+              MSVCRT.lib(cpu_disp.obj)
+              MSVCRT.lib(ftol3.obj)
+              MSVCRT.lib(loadcfg.obj)
+              MSVCRT.lib(secchk.obj)
+              MSVCRT.lib(sehprolg4.obj)
+              MSVCRT.lib(initsect.obj)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              MSVCRT.lib(MSVCR120.dll)
+              OLDNAMES.lib(close.obi)
+              OLDNAMES.lib(lseek.obi)
+              OLDNAMES.lib(open.obi)
+              OLDNAMES.lib(read.obi)
+              OLDNAMES.lib(write.obi)
+         Fine passaggio 2
+     1>libtiff.lib(jerror.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jerror.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jdapimin.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jdapimin.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jdapistd.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jdapistd.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jcomapi.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jcomapi.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jcapimin.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jcapimin.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jcparam.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jcparam.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jcapistd.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jcapistd.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jdmarker.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jdmarker.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jdinput.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jdinput.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jmemmgr.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jmemmgr.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jdmaster.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jdmaster.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jutils.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jutils.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jcmarker.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jcmarker.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jcinit.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jcinit.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jmemnobs.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jmemnobs.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jdhuff.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jdhuff.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jquant1.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jquant1.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jddctmgr.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jddctmgr.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jdsample.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jdsample.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jdarith.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jdarith.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jdcolor.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jdcolor.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jdcoefct.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jdcoefct.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jquant2.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jquant2.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jdmerge.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jdmerge.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jdmainct.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jdmainct.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jdpostct.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jdpostct.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jccolor.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jccolor.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jcarith.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jcarith.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jcmainct.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jcmainct.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jcmaster.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jcmaster.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jccoefct.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jccoefct.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jcprepct.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jcprepct.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jcdctmgr.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jcdctmgr.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jcsample.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jcsample.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jchuff.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jchuff.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jidctint.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jidctint.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jidctflt.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jidctflt.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jidctfst.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jidctfst.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jaricom.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jaricom.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jfdctint.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jfdctint.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jfdctflt.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jfdctflt.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(jfdctfst.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(jfdctfst.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(zutil.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(zutil.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(trees.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(trees.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(inftrees.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(inftrees.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(inflate.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(inflate.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(deflate.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(deflate.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(crc32.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(crc32.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+     1>libtiff.lib(adler32.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'libtiff.lib(adler32.obj)' o in 'C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+         DCIMG_LabVIEW.vcxproj -> C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\Release\DCIMG_LabVIEW.dll
+     1>Compilazione progetto "C:\Users\Ludo\Programming\Moroder\dependencies\DCIMG_LabVIEW\DCIMG_LabVIEW\DCIMG_LabVIEW\DCIMG_LabVIEW.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:02.51

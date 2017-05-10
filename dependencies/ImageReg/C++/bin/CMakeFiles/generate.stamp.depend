@@ -1,0 +1,154 @@
+# CMake generation dependency list for this directory.
+C:/Users/Ludovico/Prog/moroder/dependencies/ImageReg/C++/CMakeLists.txt
+C:/Users/Ludovico/Prog/moroder/dependencies/ImageReg/C++/bin/CMakeFiles/3.3.2/CMakeSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/Ludovico/Prog/moroder/dependencies/ImageReg/C++/bin/CMakeFiles/3.3.2/CMakeCCompiler.cmake
+C:/Users/Ludovico/Prog/moroder/dependencies/ImageReg/C++/bin/CMakeFiles/3.3.2/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC.cmake
+C:/Users/Ludovico/Prog/moroder/dependencies/ImageReg/C++/bin/CMakeFiles/3.3.2/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCommonLanguageInclude.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/ITKConfigVersion.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/ITKConfig.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/ITKTargets.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/CMake/ITKModuleAPI.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKDoubleConversion.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKKWSys.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKVNL.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKVNLInstantiation.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKCommon.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKFiniteDifference.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKImageFilterBase.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKCurvatureFlow.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKImageAdaptors.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKNetlib.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKStatistics.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKTransform.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKImageFunction.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKImageGrid.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKAnisotropicSmoothing.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKImageCompose.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOImageBase.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKMesh.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKZLIB.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKMetaIO.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKSpatialObjects.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKImageStatistics.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKPath.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKImageIntensity.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKImageLabel.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKThresholding.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKConnectedComponents.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKMathematicalMorphology.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKLabelMap.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKBinaryMathematicalMorphology.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKNarrowBand.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKDistanceMap.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKQuadEdgeMesh.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKFastMarching.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKImageCompare.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKSmoothing.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKImageGradient.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKImageSources.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKImageFeature.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKOptimizers.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKSignedDistanceFunction.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKLevelSets.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKAntiAlias.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKPolynomials.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKBiasCorrection.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKBioCell.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKClassifiers.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKColormap.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKFFT.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKConvolution.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKDICOMParser.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKDeconvolution.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKDeformableMesh.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKDenoising.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKDiffusionTensorImage.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKDisplacementField.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKEigen.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKExpat.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOXML.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOSpatialObjects.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKRegistrationCommon.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKFEM.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKPDEDeformableRegistration.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKFEMRegistration.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKGDCM.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKNIFTI.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKGIFTI.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKGPUCommon.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKGPUFiniteDifference.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKGPUAnisotropicSmoothing.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKGPUImageFilterBase.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKGPURegistrationCommon.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKGPUPDEDeformableRegistration.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKGPUSmoothing.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKGPUThresholding.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKHDF5.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOBMP.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOBioRad.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOCSV.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOGDCM.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOIPL.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOGE.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOGIPL.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOHDF5.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKJPEG.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOJPEG.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKTIFF.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOTIFF.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOLSM.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOMRC.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOMesh.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOMeta.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIONIFTI.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKNrrdIO.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIONRRD.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKPNG.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOPNG.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIORAW.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOSiemens.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOStimulate.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOTransformBase.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOTransformHDF5.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOTransformInsightLegacy.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOTransformMatlab.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIOVTK.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKImageFusion.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKImageNoise.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKIntegratedTest.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKKLMRegionGrowing.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKLabelVoting.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKLevelSetsv4.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKMarkovRandomFieldsClassifiers.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKOptimizersv4.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKMetricsv4.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKNeuralNetworks.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKQuadEdgeMeshFiltering.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKRegionGrowing.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKRegistrationMethodsv4.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKSpatialFunction.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKTestKernel.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKVTK.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKVideoCore.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKVideoFiltering.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKVideoIO.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKVoronoi.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/Bin/lib/cmake/ITK-4.8/Modules/ITKWatersheds.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/CMake/UseITK.cmake
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/CMake/itkImageIOFactoryRegisterManager.h.in
+C:/Users/Ludovico/Prog/InsightToolkit-4.8.1/CMake/itkTransformIOFactoryRegisterManager.h.in

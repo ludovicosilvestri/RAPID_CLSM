@@ -1,0 +1,10 @@
+﻿Compilazione avviata 29/10/2015 10:06:12.
+     1>Progetto "C:\Users\Ludovico\Prog\moroder\dependencies\ImageReg\C++\bin\ZERO_CHECK.vcxproj" sul nodo 2 (destinazioni: Build).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/Users/Ludovico/Prog/moroder/dependencies/ImageReg/C++/bin/CMakeFiles/generate.stamp is up-to-date.
+     1>Compilazione progetto "C:\Users\Ludovico\Prog\moroder\dependencies\ImageReg\C++\bin\ZERO_CHECK.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:00.10

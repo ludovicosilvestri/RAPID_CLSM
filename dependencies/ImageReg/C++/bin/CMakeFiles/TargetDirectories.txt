@@ -1,0 +1,3 @@
+C:/Users/Ludovico/Prog/moroder/dependencies/ImageReg/C++/bin/CMakeFiles/ALL_BUILD.dir
+C:/Users/Ludovico/Prog/moroder/dependencies/ImageReg/C++/bin/CMakeFiles/ImageReg.dir
+C:/Users/Ludovico/Prog/moroder/dependencies/ImageReg/C++/bin/CMakeFiles/ZERO_CHECK.dir
